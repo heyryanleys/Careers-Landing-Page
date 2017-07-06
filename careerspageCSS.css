@@ -1,0 +1,546 @@
+<style>
+  #RightContainer,
+  #BreadcrumbContainer,
+  #SoNeContainer {
+    display: none !important
+  }
+  /* Expands left content to entire container */
+
+  #container #ContentContainer #LeftContent {
+    width: 100%;
+  }
+  p.jointeam,
+  p.motto,
+  p.info {
+    padding-left: 200px;
+    padding-right: 200px;
+  }
+  p.jointeam,
+  p.motto {
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 35px;
+  }
+
+  p.jointeam{
+    text-align: center;
+  }
+
+  p.info {
+    font-size: 15px;
+    font-weight: 100;
+    line-height: 20px;
+    padding-top: 10px;
+  }
+
+  p.quote,
+  p.quote2 {
+    font-size: 20px;
+    min-width: 800px;
+    position: relative;
+    top: 100px;
+    background: #f3f3f3;
+    border-left: 10px solid #f58220;
+    margin: 1.5em 10px;
+    padding: 0.5em 10px;
+    quotes: "\201C""\201D""\2018""\2019";
+    content: open-quote;
+  }
+
+  p.quote {
+    right: 250px;
+  }
+
+  img[alt*="Headshot"] {
+    max-width: 55%;
+    position: relative;
+  }
+
+  img[alt="Headshot2"] {
+    right: -260px;
+  }
+
+  .ContentBreak {
+    height: 0px;
+  }
+
+  p.video {
+    width: 750px;
+    position: relative;
+    left: 200px;
+    z-index: 99;
+  }
+
+  .orangecircle {
+    background-color: #f58220;
+    min-height: 600px;
+    max-width: 600px;
+    margin-left: 900px;
+    top: -730px;
+    margin-bottom: 0 !important;
+    opacity: .3;
+    border-radius: 50%;
+    padding-bottom: 0 !important;
+  }
+
+  .greycircle {
+    background-color: #e3e3e3;
+    min-height: 600px;
+    max-width: 600px;
+    margin-left: -300px;
+    top: -830px;
+    margin-bottom: 0 !important;
+    border-radius: 50%;
+    padding-bottom: 0 !important;
+  }
+  a[title="Learn about dry-tech"],
+  a[title="Learn about ECS"],
+  a[title="See open positions"] {
+    height: 40px;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 10px 15px;
+    background-position: 10px;
+    background-size: 30px;
+    color: #fff;
+    text-decoration: none;
+    position: relative;
+    top: 30px;
+
+  }
+a[title="See open positions"]{
+  left: 500px;
+  background-color: #F07D00;
+}
+
+  a[title="Learn about ECS"],
+  a[title="Learn about dry-tech"]{
+    left: 200px;
+    background-color: #f18f3b;
+  }
+
+
+  a[title="See open positions"]:hover {
+    background-color: #d26e00;
+  }
+  a[title="Learn about ECS"]:hover ,
+  a[title="Learn about dry-tech"]:hover {
+    background-color: #f58220
+  }
+
+
+  a[name*=Section_2]+.NonSpaceingBreak>.NonSpaceingBreak td {
+    padding: 0px;
+  }
+
+  br {
+    line-height: 2.4em;
+  }
+
+  .box {
+    max-width: 1000px;
+    max-height: 300px;
+    margin-left: 50px;
+  }
+
+  .timeline {
+    background-color: #f58220;
+    width: 1000px;
+    height: 5px;
+    margin-left: 30px;
+    top: 147.5px;
+  }
+
+  .project {
+    text-align: center;
+    opacity: 0;
+    transform: translateX(10px);
+    transition: all 3s ease-out;
+  }
+
+  .project.fade-in {
+    opacity: 1;
+    transform: translateX(915px);
+  }
+
+  .timeline {
+    text-align: center;
+    opacity: 0;
+    transform: translateX(-920px);
+    transition: all 1s ease-out;
+  }
+
+  .timeline.fade-in {
+    opacity: 1;
+    transform: translateX(0px);
+  }
+
+  .number1 {
+    background-color: #e3e3e3;
+    max-width: 5px;
+    min-width: 5px;
+    max-height: 40px;
+    min-height: 40px;
+    top: 125px;
+    margin-left: 25px;
+    opacity: 0;
+    transition: all 1s ease-out;
+    transform: translateX(-50px);
+  }
+
+  .number1.fade-in {
+    opacity: 1;
+    transform: translateX(0px);
+  }
+
+  .number2,
+  .number3,
+  .number4,
+  .number5,
+  .number6,
+  .number7 {
+    background-color: #f58220;
+    max-width: 5px;
+    min-width: 5px;
+    max-height: 40px;
+    min-height: 40px;
+    opacity: 0;
+  }
+
+  .number2.fade-in,
+  .number3.fade-in,
+  .number4.fade-in,
+  .number5.fade-in,
+  .number6.fade-in,
+  .number7.fade-in {
+    opacity: 1;
+    transform: translateX(0px);
+    -ms-transform: rotate(0deg);
+    /* IE 9 */
+    -webkit-transform: rotate(0deg);
+    /* Chrome, Safari, Opera */
+    transform: rotate(0deg) translateY(0px);
+  }
+
+  .number2,
+  .number5 {
+    -ms-transform: rotate(-40deg);
+    /* IE 9 */
+    -webkit-transform: rotate(-40deg);
+    /* Chrome, Safari, Opera */
+    transform: rotate(-40deg) translateY(-50px);
+  }
+
+  .number4,
+  .number6 {
+    -ms-transform: rotate(40deg);
+    /* IE 9 */
+    -webkit-transform: rotate(40deg);
+    /* Chrome, Safari, Opera */
+    transform: rotate(40deg) translateY(-50px);
+  }
+
+  .number2 {
+    margin-top: 65px;
+    margin-left: 30px;
+    transition: all 1s ease-out;
+  }
+
+  .number3 {
+    margin-top: 0px;
+    margin-left: 300px;
+    transition: all 1s ease-out;
+    -ms-transform: rotate(40deg);
+    /* IE 9 */
+    -webkit-transform: rotate(40deg);
+    /* Chrome, Safari, Opera */
+    transform: rotate(40deg) translateY(50px);
+  }
+
+  .number4 {
+    background-color: #f58220;
+    margin-top: -80px;
+    margin-left: 360px;
+    transition: all 1.5s ease-out;
+  }
+
+  .number5 {
+    margin-top: 0px;
+    margin-left: 620px;
+    transition: all 1.5s ease-out;
+    ;
+  }
+
+  .number6 {
+    margin-top: -80px;
+    margin-left: 660px;
+    transition: all 2s ease-out;
+    ;
+  }
+
+  .number7 {
+    margin-top: -20px;
+    margin-left: 1030px;
+    transition: all 2s ease-out;
+    transform: translateX(50px);
+  }
+
+  .car {
+    position: absolute;
+    max-width: 125px;
+    top: 80px;
+    z-index: 1;
+  }
+
+  .timelineSheild {
+    margin-left: -75px;
+    background-color: #e3e3e3;
+    min-width: 100px;
+    max-width: 100px;
+    height: 5px;
+    top: 152px;
+    z-index: 1;
+  }
+
+  .TLText {
+    font-size: 15px;
+    min-width: 300px;
+    line-height: 1.3em;
+  }
+
+  #n2,
+  #n4 {
+    top: -25px;
+    margin-left: 12px;
+    min-width: 280px;
+  }
+
+  #n3,
+  #n5 {
+    top: 5px;
+    margin-left: 12px;
+  }
+
+  #n6 {
+    top: -25px;
+    margin-left: 12px;
+    min-width: 240px;
+  }
+
+  .boldDate {
+    margin: 0px;
+    padding-top: -20px !important
+  }
+
+  .moreinfolinks {
+    color: white;
+    font-size: 20px;
+  }
+
+  .companyinfo {
+    font-weight: bold;
+    font-size: 50px;
+    color: #f58220;
+    margin-top: 40px !important;
+  }
+
+  .companyinfo2 {
+    color: #343434;
+    margin-top: 30px !important;
+    max-width: 700px;
+  }
+
+  .trainingDIV {
+    width: 100%;
+    overflow: hidden;
+    background-color: #f3f3f3
+  }
+
+  .trainingtextDIV {
+    margin-left: 350px;
+  }
+
+  .trainingimgDIV {
+    width: 300px;
+    max-width: 300px;
+    float: left;
+  }
+
+  .triangle1,
+  .triangle2,
+  .triangle3{
+    background-color: #f58220;
+    min-width: 100px;
+    max-width: 100px;
+    min-height: 100px;
+    max-height: 100px;
+    position: relative;
+    float: left;
+    top: -60px;
+    margin-bottom: -90px;
+    -webkit-clip-path: polygon(48% 86%, 0 0, 100% 0);
+    clip-path: polygon(48% 86%, 0 0, 100% 0);
+    z-index: 1;
+  }
+
+  .triangle1{
+    margin-left: 260px;
+    display: block;
+  }
+
+  .triangle2{
+    margin-left: 650px;
+    display: none;
+  }
+
+  .triangle3{
+    margin-left: 1040px;
+    display: none;
+  }
+
+  a[name*=Section_9]+.einspaltig .text_ohne_bild table tr:nth-child(odd) {
+    background: #f3f3f3 !important;
+  }
+
+  a[name*=Section_8]+.einspaltig+.dreispaltigG,
+  a[name*=Section_8]+.einspaltig+.dreispaltigG+.dreispaltigG,
+  a[name*=Section_8]+.einspaltig+.dreispaltigG+.dreispaltigG+.dreispaltigG,
+  a[name*=Section_12]+.einspaltig+.zweispaltigG div div,
+  a[name*=Section_12]+.einspaltig+.zweispaltigG + .zweispaltigG div div {
+    height: 65px;
+    text-align: center;
+    vertical-align: center;
+  }
+
+  a[name*=Section_8]+.einspaltig+.dreispaltigG,
+  a[name*=Section_8]+.einspaltig+.dreispaltigG+.dreispaltigG,
+  a[name*=Section_8]+.einspaltig+.dreispaltigG+.dreispaltigG+.dreispaltigG {
+    background-color: #f58220;
+  }
+
+  a[name*=Section_12]+.einspaltig+.zweispaltigG div div,
+  a[name*=Section_12]+.einspaltig+.zweispaltigG + .zweispaltigG div div {
+    background-color: #5e5e5e;
+  }
+
+  a[name*=Section_12]+.einspaltig+.zweispaltigG div div h2,
+  a[name*=Section_12]+.einspaltig+.zweispaltigG + .zweispaltigG div div h2 {
+    color: white;
+    font-size: 20px !important;
+    font-weight: 100;
+  }
+
+  a[name*=Section_12]+.einspaltig+.zweispaltigG div div h2{
+    padding-top: 4px;
+
+  }
+  a[name*=Section_12]+.einspaltig+.zweispaltigG + .zweispaltigG div div h2{
+    padding-top: 9px;
+  }
+
+  a[name*=Section_8]+.einspaltig+.dreispaltigG+.dreispaltigG+.dreispaltigG+.ContentBreak+.NonSpaceingBreak td {
+    padding: 5px !important;
+  }
+
+  a[name*=Section_9]+.einspaltig,
+  a[name*=Section_10]+.einspaltig,
+  a[name*=Section_11]+.einspaltig{
+    margin-left: 0px
+  }
+
+  a[name*=Section_9]+.einspaltig+.NonSpaceingBreak td,
+  a[name*=Section_10]+.einspaltig+.NonSpaceingBreak td {
+    padding: 0px !important;
+  }
+
+  a[name*=Section_10]+.einspaltig,
+  a[name*=Section_11]+.einspaltig {
+    display: none;
+  }
+
+  a[name*=Section_4]+.einspaltig div .text_ohne_bild {
+    margin-bottom: -1200px;
+  }
+
+  a[name*=Section_11]+.einspaltig+.NonSpaceingBreak td{
+    padding: 36px !important;
+  }
+
+  a[name*=Section_12]+.einspaltig+.zweispaltigG+.zweispaltigG+.ContentBreak+.NonSpaceingBreak td {
+    padding: 10px !important;
+  }
+
+  a[name*=Section_13]+.einspaltig+.zweispaltigG,
+  a[name*=Section_13]+.einspaltig+.zweispaltigG+.zweispaltigG{
+    background-color: #f3f3f3;
+    padding-top: 20px;
+    padding-bottom: 90px;
+  }
+
+
+  /* Padding Top of Form */
+.hbspt-form form {
+  padding-top: 15px !important;
+}
+
+/* Form Button Styling*/
+.hs-button.primary.large {
+  position: relative;
+  left: 910px;
+  top: 15px;
+  width: 200px;
+  height: 40px;
+  background: #f07d00;
+  border: 0px transparent;
+  color: #fff;
+}
+
+.hs-button.primary.large:hover {
+  background-color: #d26e00;
+}
+
+/* Sizing of Form Fields */
+.form-columns-2 .hs-input {
+  height: 30px;
+  line-height: 50px;
+  width: 550px;
+  padding-left: 15px;
+  border: 1px solid #ABABAB;
+}
+
+/* Spacing of Form Fields (Height) */
+.form-columns-2,
+.form-intro {
+  margin-bottom: 30px !important;
+}
+
+/* Spacing of Form Fields (Width) */
+.form-columns-2 {
+  max-width: 100% !important;
+}
+.form-columns-2 div {
+  width: 50% !important;
+}
+
+/* Form Subheading Styling */
+.form-columns-2 .hs-richtext {
+  width: 100% !important;
+  margin-bottom: 30px;
+}
+
+/* Large Textarea Styling */
+.form-columns-1 {
+  max-width: 100% !important;
+}
+
+.form-columns-1 .hs-input {
+  max-width: 1110px;
+  min-width: 1110px;
+  min-height: 120px;
+}
+
+a[name*=Section_15]+.einspaltig div div div form{
+  background-color: #f3f3f3
+}
+
+</style>
