@@ -71,28 +71,27 @@
     z-index: 99;
   }
 
-  .orangecircle {
-    background-color: #f58220;
+  .orangecircle,
+  .greycircle{
     min-height: 600px;
     max-width: 600px;
+    min-height: 600px;
+    max-width: 600px;    
+  }
+
+  .orangecircle {
+    background-color: #f58220;
     margin-left: 900px;
     top: -730px;
-    margin-bottom: 0 !important;
     opacity: .3;
-    border-radius: 50%;
-    padding-bottom: 0 !important;
   }
 
   .greycircle {
     background-color: #e3e3e3;
-    min-height: 600px;
-    max-width: 600px;
     margin-left: -300px;
     top: -830px;
-    margin-bottom: 0 !important;
-    border-radius: 50%;
-    padding-bottom: 0 !important;
   }
+
   a[title="Learn about dry-tech"],
   a[title="Learn about ECS"],
   a[title="See open positions"] {
