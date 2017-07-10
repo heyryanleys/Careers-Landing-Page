@@ -39,7 +39,7 @@
 $(document).ready(
   function(){
     if ($('a[name*=Section_2]+.einspaltigG img').attr('alt')){
-      $('a[name*=Section_2]+.einspaltigG img').attr('src','https://s2.postimg.org/4ms3bdxu1/careersdraft.png');
+      $('a[name*=Section_2]+.einspaltigG img').attr('src','https://s17.postimg.org/hv2mzuulr/careersupdatedbanner.png');
     }
   });
 </script>
