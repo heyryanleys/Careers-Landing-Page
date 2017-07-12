@@ -17,29 +17,29 @@
   $(document).ready(
     function() {
       $('#Trainings').click(function() {
-        $("a[name*=Section_9] + .einspaltig").show();
+        $("a[name*=Section_10] + .einspaltig").show();
         $('.triangle1').show();
-        $("a[name*=Section_10] + .einspaltig").hide();
         $("a[name*=Section_11] + .einspaltig").hide();
+        $("a[name*=Section_12] + .einspaltig").hide();
       });
       $('#CompanyCulture').click(function() {
-        $("a[name*=Section_9] + .einspaltig").hide();
-        $("a[name*=Section_10] + .einspaltig").show();
+        $("a[name*=Section_10] + .einspaltig").hide();
+        $("a[name*=Section_11] + .einspaltig").show();
         $('.triangle2').show();
-        $("a[name*=Section_11] + .einspaltig").hide();
+        $("a[name*=Section_12] + .einspaltig").hide();
       });
       $('#OfficeSpace').click(function() {
-        $("a[name*=Section_9] + .einspaltig").hide();
         $("a[name*=Section_10] + .einspaltig").hide();
+        $("a[name*=Section_11] + .einspaltig").hide();
         $('.triangle3').show();
-        $("a[name*=Section_11] + .einspaltig").show();
+        $("a[name*=Section_12] + .einspaltig").show();
       });
     });
 
 $(document).ready(
   function(){
-    if ($('a[name*=Section_2]+.einspaltigG img').attr('alt')){
-      $('a[name*=Section_2]+.einspaltigG img').attr('src','https://s17.postimg.org/hv2mzuulr/careersupdatedbanner.png');
+    if ($('a[name*=Section_3]+.einspaltigG img').attr('alt')){
+      $('a[name*=Section_3]+.einspaltigG img').attr('src','https://s17.postimg.org/hv2mzuulr/careersupdatedbanner.png');
     }
   });
 </script>
