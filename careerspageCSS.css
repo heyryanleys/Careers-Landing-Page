@@ -467,6 +467,7 @@ a[name*=Section_15]+.einspaltig+.zweispaltigG+.zweispaltigG {
   background-color: #f3f3f3;
   padding-top: 20px;
   padding-bottom: 90px;
+  height: 330px;
 }
 
 /* Padding Top of Form */
