@@ -36,7 +36,7 @@ a[name*=Section_5]+ .einspaltig div .text_ohne_bild p{
     font-size: 15px;
     font-weight: 100;
     line-height: 20px;
-    margin-top: -10px;
+    margin-top: -20px !important;
   }
 
   p.jointeam{
@@ -74,7 +74,7 @@ a[name*=Section_5]+ .einspaltig div .text_ohne_bild p{
     height: 0px;
   }
 
-  p.video {
+  a[name*="Section_6"]+.einspaltig div .text_ohne_bild p{
     width: 750px;
     position: relative;
     left: 200px;
@@ -549,7 +549,7 @@ a[title="See open positions"]{
   min-height: 120px;
 }
 
-a[name*=Section_17]+.einspaltig div div div form{
+a[name*=Section_16]+.einspaltig div div div form{
   background-color: #f3f3f3
 }
 
