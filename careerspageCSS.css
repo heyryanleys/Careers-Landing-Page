@@ -43,30 +43,32 @@ a[name*=Section_5]+ .einspaltig div .text_ohne_bild p{
     text-align: center;
   }
 
-  p.quote,
-  p.quote2 {
-    font-size: 20px;
-    min-width: 800px;
-    position: relative;
-    top: 100px;
-    background: #f3f3f3;
-    border-left: 10px solid #f58220;
-    margin: 1.5em 10px;
-    padding: 0.5em 10px;
-    quotes: "\201C""\201D""\2018""\2019";
-    content: open-quote;
-  }
+a[name*=Section_8]+.einspaltig+.ContentBreak+.zweispaltigG+.zweispaltigG div .text_ohne_bild p,
+a[name*=Section_9]+.einspaltig+.zweispaltigG div .text_ohne_bild p{
+  font-size: 20px;
+  min-width: 800px;
+  position: relative;
+  top: 100px;
+  background: #f3f3f3;
+  border-left: 10px solid #f58220;
+  margin: 1.5em 10px;
+  padding: 0.5em 10px;
+  quotes: "\201C""\201D""\2018""\2019";
+  content: open-quote;
+}
 
-  p.quote {
-    right: 250px;
-  }
+a[name*=Section_8]+.einspaltig+.ContentBreak+.zweispaltigG+.zweispaltigG div .text_ohne_bild p{
+  right: 250px;
+}
 
-  img[alt*="Headshot"] {
+/*Circle Headshot Styling*/
+a[name*=Section_8]+.einspaltig+.ContentBreak+.zweispaltigG div img,
+a[name*=Section_9]+.einspaltig+.zweispaltigG+.zweispaltigG div img{
     max-width: 55%;
     position: relative;
   }
 
-  img[alt="Headshot2"] {
+a[name*=Section_9]+.einspaltig+.zweispaltigG+.zweispaltigG div img {
     right: -260px;
   }
 
