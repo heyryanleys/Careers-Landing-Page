@@ -10,27 +10,37 @@
     width: 100%;
   }
   p.jointeam,
-  p.motto,
-  p.info {
+  /*Had info and motto*/{
     padding-left: 200px;
     padding-right: 200px;
   }
-  p.jointeam,
-  p.motto {
+  p.jointeam {
     font-size: 30px;
     font-weight: bold;
     line-height: 35px;
   }
 
-  p.jointeam{
-    text-align: center;
+a[name*=Section_4]+ .einspaltig div .text_ohne_bild p,
+a[name*=Section_5]+ .einspaltig div .text_ohne_bild p{
+    padding-left: 200px;
+    padding-right: 200px;
   }
 
-  p.info {
+a[name*=Section_4]+ .einspaltig div .text_ohne_bild p{
+  font-size: 30px;
+  font-weight: bold;
+  line-height: 35px;
+}
+
+a[name*=Section_5]+ .einspaltig div .text_ohne_bild p{
     font-size: 15px;
     font-weight: 100;
     line-height: 20px;
-    padding-top: 10px;
+    margin-top: -10px;
+  }
+
+  p.jointeam{
+    text-align: center;
   }
 
   p.quote,
@@ -95,7 +105,7 @@
 
   a[title="Learn about dry-tech"],
   a[title="Learn about ECS"],
-  a[title="See open positions"] {
+  a[name*=Section_5]+ .einspaltig div .link a{
     height: 40px;
     font-size: 15px;
     font-weight: 500;
@@ -129,7 +139,7 @@ a[title="See open positions"]{
   }
 
 
-  a[name*=Section_2]+.NonSpaceingBreak>.NonSpaceingBreak td {
+  a[name*=Section_3]+.NonSpaceingBreak>.NonSpaceingBreak td {
     padding: 0px;
   }
 
@@ -398,80 +408,80 @@ a[title="See open positions"]{
     display: none;
   }
 
-  a[name*=Section_9]+.einspaltig .text_ohne_bild table tr:nth-child(odd) {
+  a[name*=Section_11]+.einspaltig .text_ohne_bild table tr:nth-child(odd) {
     background: #f3f3f3 !important;
   }
 
-  a[name*=Section_8]+.einspaltig+.dreispaltigG,
-  a[name*=Section_8]+.einspaltig+.dreispaltigG+.dreispaltigG,
-  a[name*=Section_8]+.einspaltig+.dreispaltigG+.dreispaltigG+.dreispaltigG,
-  a[name*=Section_12]+.einspaltig+.zweispaltigG div div,
-  a[name*=Section_12]+.einspaltig+.zweispaltigG + .zweispaltigG div div {
+  a[name*=Section_10]+.einspaltig+.dreispaltigG,
+  a[name*=Section_10]+.einspaltig+.dreispaltigG+.dreispaltigG,
+  a[name*=Section_10]+.einspaltig+.dreispaltigG+.dreispaltigG+.dreispaltigG,
+  a[name*=Section_14]+.einspaltig+.zweispaltigG div div,
+  a[name*=Section_14]+.einspaltig+.zweispaltigG + .zweispaltigG div div {
     height: 65px;
     text-align: center;
     vertical-align: center;
   }
 
-  a[name*=Section_8]+.einspaltig+.dreispaltigG,
-  a[name*=Section_8]+.einspaltig+.dreispaltigG+.dreispaltigG,
-  a[name*=Section_8]+.einspaltig+.dreispaltigG+.dreispaltigG+.dreispaltigG {
+  a[name*=Section_10]+.einspaltig+.dreispaltigG,
+  a[name*=Section_10]+.einspaltig+.dreispaltigG+.dreispaltigG,
+  a[name*=Section_10]+.einspaltig+.dreispaltigG+.dreispaltigG+.dreispaltigG {
     background-color: #f58220;
   }
 
-  a[name*=Section_12]+.einspaltig+.zweispaltigG div div,
-  a[name*=Section_12]+.einspaltig+.zweispaltigG + .zweispaltigG div div {
+  a[name*=Section_14]+.einspaltig+.zweispaltigG div div,
+  a[name*=Section_14]+.einspaltig+.zweispaltigG + .zweispaltigG div div {
     background-color: #5e5e5e;
   }
 
-  a[name*=Section_12]+.einspaltig+.zweispaltigG div div h2,
-  a[name*=Section_12]+.einspaltig+.zweispaltigG + .zweispaltigG div div h2 {
+  a[name*=Section_14]+.einspaltig+.zweispaltigG div div h2,
+  a[name*=Section_14]+.einspaltig+.zweispaltigG + .zweispaltigG div div h2 {
     color: white;
     font-size: 20px !important;
     font-weight: 100;
   }
 
-  a[name*=Section_12]+.einspaltig+.zweispaltigG div div h2{
+  a[name*=Section_14]+.einspaltig+.zweispaltigG div div h2{
     padding-top: 4px;
 
   }
-  a[name*=Section_12]+.einspaltig+.zweispaltigG + .zweispaltigG div div h2{
+  a[name*=Section_14]+.einspaltig+.zweispaltigG + .zweispaltigG div div h2{
     padding-top: 9px;
   }
 
-  a[name*=Section_8]+.einspaltig+.dreispaltigG+.dreispaltigG+.dreispaltigG+.ContentBreak+.NonSpaceingBreak td {
+  a[name*=Section_10]+.einspaltig+.dreispaltigG+.dreispaltigG+.dreispaltigG+.ContentBreak+.NonSpaceingBreak td {
     padding: 5px !important;
   }
 
-  a[name*=Section_9]+.einspaltig,
-  a[name*=Section_10]+.einspaltig,
-  a[name*=Section_11]+.einspaltig{
+  a[name*=Section_11]+.einspaltig,
+  a[name*=Section_12]+.einspaltig,
+  a[name*=Section_13]+.einspaltig{
     margin-left: 0px
   }
 
-  a[name*=Section_9]+.einspaltig+.NonSpaceingBreak td,
-  a[name*=Section_10]+.einspaltig+.NonSpaceingBreak td {
+  a[name*=Section_11]+.einspaltig+.NonSpaceingBreak td,
+  a[name*=Section_12]+.einspaltig+.NonSpaceingBreak td {
     padding: 0px !important;
   }
 
-  a[name*=Section_10]+.einspaltig,
-  a[name*=Section_11]+.einspaltig {
+  a[name*=Section_12]+.einspaltig,
+  a[name*=Section_13]+.einspaltig {
     display: none;
   }
 
-  a[name*=Section_4]+.einspaltig div .text_ohne_bild {
+  a[name*=Section_6]+.einspaltig div .text_ohne_bild {
     margin-bottom: -1200px;
   }
 
-  a[name*=Section_11]+.einspaltig+.NonSpaceingBreak td{
+  a[name*=Section_13]+.einspaltig+.NonSpaceingBreak td{
     padding: 36px !important;
   }
 
-  a[name*=Section_12]+.einspaltig+.zweispaltigG+.zweispaltigG+.ContentBreak+.NonSpaceingBreak td {
+  a[name*=Section_14]+.einspaltig+.zweispaltigG+.zweispaltigG+.ContentBreak+.NonSpaceingBreak td {
     padding: 10px !important;
   }
 
-  a[name*=Section_13]+.einspaltig+.zweispaltigG,
-  a[name*=Section_13]+.einspaltig+.zweispaltigG+.zweispaltigG{
+  a[name*=Section_15]+.einspaltig+.zweispaltigG,
+  a[name*=Section_15]+.einspaltig+.zweispaltigG+.zweispaltigG{
     background-color: #f3f3f3;
     padding-top: 20px;
     padding-bottom: 90px;
@@ -539,7 +549,7 @@ a[title="See open positions"]{
   min-height: 120px;
 }
 
-a[name*=Section_15]+.einspaltig div div div form{
+a[name*=Section_17]+.einspaltig div div div form{
   background-color: #f3f3f3
 }
 
