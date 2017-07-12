@@ -490,7 +490,6 @@ a[name*=Section_15]+.einspaltig+.zweispaltigG+.zweispaltigG {
   background-color: #d26e00;
 }
 
-
 /* Sizing of Form Fields */
 .form-columns-2 .hs-input {
   height: 30px;
@@ -500,12 +499,10 @@ a[name*=Section_15]+.einspaltig+.zweispaltigG+.zweispaltigG {
   border: 1px solid #ABABAB;
 }
 
-
 /* Spacing of Form Fields (Height) */
 .form-columns-2, .form-intro {
   margin-bottom: 30px !important;
 }
-
 
 /* Spacing of Form Fields (Width) */
 .form-columns-2 {
@@ -516,13 +513,11 @@ a[name*=Section_15]+.einspaltig+.zweispaltigG+.zweispaltigG {
   width: 50% !important;
 }
 
-
 /* Form Subheading Styling */
 .form-columns-2 .hs-richtext {
   width: 100% !important;
   margin-bottom: 30px;
 }
-
 
 /* Large Textarea Styling */
 .form-columns-1 {
@@ -538,5 +533,4 @@ a[name*=Section_15]+.einspaltig+.zweispaltigG+.zweispaltigG {
 a[name*=Section_16]+.einspaltig div div div form {
   background-color: #f3f3f3
 }
-
 </style>
