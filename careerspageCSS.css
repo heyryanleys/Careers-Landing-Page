@@ -105,8 +105,8 @@ a[name*=Section_9]+.einspaltig+.zweispaltigG+.zweispaltigG div img {
     top: -830px;
   }
 
-  a[title="Learn about dry-tech"],
-  a[title="Learn about ECS"],
+  a[name*="Section_15"]+.einspaltig+.zweispaltigG div .text_ohne_bild .link a,
+  a[name*="Section_15"]+.einspaltig+.zweispaltigG+.zweispaltigG div .text_ohne_bild .link a,
   a[name*=Section_5]+ .einspaltig div .link a{
     height: 40px;
     font-size: 15px;
@@ -125,8 +125,8 @@ a[title="See open positions"]{
   background-color: #F07D00;
 }
 
-  a[title="Learn about ECS"],
-  a[title="Learn about dry-tech"]{
+a[name*="Section_15"]+.einspaltig+.zweispaltigG div .text_ohne_bild .link a,
+a[name*="Section_15"]+.einspaltig+.zweispaltigG+.zweispaltigG div .text_ohne_bild .link a{
     left: 200px;
     background-color: #f18f3b;
   }
@@ -135,8 +135,8 @@ a[title="See open positions"]{
   a[title="See open positions"]:hover {
     background-color: #d26e00;
   }
-  a[title="Learn about ECS"]:hover ,
-  a[title="Learn about dry-tech"]:hover {
+  a[name*="Section_15"]+.einspaltig+.zweispaltigG div .text_ohne_bild .link a:hover,
+  a[name*="Section_15"]+.einspaltig+.zweispaltigG+.zweispaltigG div .text_ohne_bild .link a:hover {
     background-color: #f58220
   }
 
