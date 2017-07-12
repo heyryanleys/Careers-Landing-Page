@@ -120,7 +120,7 @@ a[name*=Section_9]+.einspaltig+.zweispaltigG+.zweispaltigG div img {
     top: 30px;
 
   }
-a[title="See open positions"]{
+a[name*=Section_5]+ .einspaltig div .link a{
   left: 500px;
   background-color: #F07D00;
 }
@@ -132,7 +132,7 @@ a[name*="Section_15"]+.einspaltig+.zweispaltigG+.zweispaltigG div .text_ohne_bil
   }
 
 
-  a[title="See open positions"]:hover {
+  a[name*=Section_5]+ .einspaltig div .link a:hover {
     background-color: #d26e00;
   }
   a[name*="Section_15"]+.einspaltig+.zweispaltigG div .text_ohne_bild .link a:hover,
