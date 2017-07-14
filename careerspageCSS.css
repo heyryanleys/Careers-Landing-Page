@@ -8,7 +8,7 @@
   width: 100%;
 }
 
-a[name*=Section_18]+.einspaltig div .text_ohne_bild h2{
+a[name*=Section_20]+.einspaltig div .text_ohne_bild h2{
   padding-left: 200px;
   padding-right: 200px;
   font-size: 30px;
@@ -19,7 +19,7 @@ a[name*=Section_18]+.einspaltig div .text_ohne_bild h2{
 
 a[name*=Section_4]+.einspaltig div .text_ohne_bild p,
 a[name*=Section_5]+.einspaltig div .text_ohne_bild p,
-a[name*=Section_18]+.einspaltig div .text_ohne_bild p {
+a[name*=Section_20]+.einspaltig div .text_ohne_bild p {
   padding-left: 200px;
   padding-right: 200px;
 }
@@ -31,7 +31,7 @@ a[name*=Section_4]+.einspaltig div .text_ohne_bild p {
 }
 
 a[name*=Section_5]+.einspaltig div .text_ohne_bild p,
-a[name*=Section_18]+.einspaltig div .text_ohne_bild p {
+a[name*=Section_20]+.einspaltig div .text_ohne_bild p {
   font-size: 15px;
   font-weight: 100;
   line-height: 20px;
@@ -102,8 +102,8 @@ a[name*="Section_6"]+.einspaltig div .text_ohne_bild p {
   top: -830px;
 }
 
-a[name*="Section_17"]+.einspaltig+.zweispaltigG div .text_ohne_bild .link a,
-a[name*="Section_17"]+.einspaltig+.zweispaltigG+.zweispaltigG div .text_ohne_bild .link a,
+a[name*="Section_19"]+.einspaltig+.zweispaltigG div .text_ohne_bild .link a,
+a[name*="Section_19"]+.einspaltig+.zweispaltigG+.zweispaltigG div .text_ohne_bild .link a,
 a[name*=Section_5]+.einspaltig div .link a {
   height: 40px;
   font-size: 15px;
@@ -122,8 +122,8 @@ a[name*=Section_5]+.einspaltig div .link a {
   background-color: #F07D00;
 }
 
-a[name*="Section_17"]+.einspaltig+.zweispaltigG div .text_ohne_bild .link a,
-a[name*="Section_17"]+.einspaltig+.zweispaltigG+.zweispaltigG div .text_ohne_bild .link a {
+a[name*="Section_19"]+.einspaltig+.zweispaltigG div .text_ohne_bild .link a,
+a[name*="Section_19"]+.einspaltig+.zweispaltigG+.zweispaltigG div .text_ohne_bild .link a {
   left: 200px;
   background-color: #f18f3b;
 }
@@ -132,8 +132,8 @@ a[name*=Section_5]+.einspaltig div .link a:hover {
   background-color: #d26e00;
 }
 
-a[name*="Section_17"]+.einspaltig+.zweispaltigG div .text_ohne_bild .link a:hover,
-a[name*="Section_17"]+.einspaltig+.zweispaltigG+.zweispaltigG div .text_ohne_bild .link a:hover {
+a[name*="Section_19"]+.einspaltig+.zweispaltigG div .text_ohne_bild .link a:hover,
+a[name*="Section_19"]+.einspaltig+.zweispaltigG+.zweispaltigG div .text_ohne_bild .link a:hover {
   background-color: #f58220
 }
 
@@ -371,29 +371,29 @@ a[name*=Section_10]+.einspaltig+.dreispaltigG+.dreispaltigG+.dreispaltigG a{
 }
 
 .triangle1 {
-  margin-left: 260px;
+  margin-left: 255px;
   display: block;
 }
 
 .triangle2 {
-  margin-left: 640px;
+  margin-left: 635px;
   display: none;
 }
 
 .triangle3 {
-  margin-left: 1020px;
+  margin-left: 1010px;
   display: none;
 }
 
-a[name*=Section_13]+.einspaltig .text_ohne_bild table tr:nth-child(odd) {
+a[name*=Section_15]+.einspaltig .text_ohne_bild table tr:nth-child(odd) {
   background: #f3f3f3 !important;
 }
 
 a[name*=Section_10]+.einspaltig+.dreispaltigG,
 a[name*=Section_10]+.einspaltig+.dreispaltigG+.dreispaltigG,
 a[name*=Section_10]+.einspaltig+.dreispaltigG+.dreispaltigG+.dreispaltigG,
-a[name*=Section_16]+.einspaltig+.zweispaltigG div div,
-a[name*=Section_16]+.einspaltig+.zweispaltigG+.zweispaltigG div div {
+a[name*=Section_18]+.einspaltig+.zweispaltigG div div,
+a[name*=Section_18]+.einspaltig+.zweispaltigG+.zweispaltigG div div {
   height: 65px;
   text-align: center;
   vertical-align: center;
@@ -405,23 +405,23 @@ a[name*=Section_10]+.einspaltig+.dreispaltigG+.dreispaltigG+.dreispaltigG {
   background-color: #f58220;
 }
 
-a[name*=Section_16]+.einspaltig+.zweispaltigG div div,
-a[name*=Section_16]+.einspaltig+.zweispaltigG+.zweispaltigG div div {
+a[name*=Section_18]+.einspaltig+.zweispaltigG div div,
+a[name*=Section_18]+.einspaltig+.zweispaltigG+.zweispaltigG div div {
   background-color: #5e5e5e;
 }
 
-a[name*=Section_16]+.einspaltig+.zweispaltigG div div h2,
-a[name*=Section_16]+.einspaltig+.zweispaltigG+.zweispaltigG div div h2 {
+a[name*=Section_18]+.einspaltig+.zweispaltigG div div h2,
+a[name*=Section_18]+.einspaltig+.zweispaltigG+.zweispaltigG div div h2 {
   color: white;
   font-size: 20px !important;
   font-weight: 100;
 }
 
-a[name*=Section_16]+.einspaltig+.zweispaltigG div div h2 {
+a[name*=Section_18]+.einspaltig+.zweispaltigG div div h2 {
   padding-top: 4px;
 }
 
-a[name*=Section_16]+.einspaltig+.zweispaltigG+.zweispaltigG div div h2 {
+a[name*=Section_18]+.einspaltig+.zweispaltigG+.zweispaltigG div div h2 {
   padding-top: 9px;
 }
 
@@ -429,36 +429,31 @@ a[name*=Section_10]+.einspaltig+.dreispaltigG+.dreispaltigG+.dreispaltigG+.Conte
   padding: 5px !important;
 }
 
-a[name*=Section_13]+.einspaltig,
-a[name*=Section_14]+.einspaltig,
-a[name*=Section_15]+.einspaltig {
+a[name*=Section_15]+.einspaltig,
+a[name*=Section_16]+.einspaltig,
+a[name*=Section_17]+.einspaltig {
   margin-left: 0px
 }
 
-a[name*=Section_13]+.einspaltig+.NonSpaceingBreak td,
-a[name*=Section_14]+.einspaltig+.NonSpaceingBreak td {
+a[name*=Section_15]+.einspaltig+.NonSpaceingBreak td,
+a[name*=Section_16]+.einspaltig+.NonSpaceingBreak td {
   padding: 0px !important;
-}
-
-a[name*=Section_14]+.einspaltig,
-a[name*=Section_15]+.einspaltig {
-  display: none;
 }
 
 a[name*=Section_6]+.einspaltig div .text_ohne_bild {
   margin-bottom: -1200px;
 }
 
-a[name*=Section_15]+.einspaltig+.NonSpaceingBreak td {
+a[name*=Section_17]+.einspaltig+.NonSpaceingBreak td {
   padding: 36px !important;
 }
 
-a[name*=Section_16]+.einspaltig+.zweispaltigG+.zweispaltigG+.ContentBreak+.NonSpaceingBreak td {
+a[name*=Section_18]+.einspaltig+.zweispaltigG+.zweispaltigG+.ContentBreak+.NonSpaceingBreak td {
   padding: 10px !important;
 }
 
-a[name*=Section_17]+.einspaltig+.zweispaltigG,
-a[name*=Section_17]+.einspaltig+.zweispaltigG+.zweispaltigG {
+a[name*=Section_19]+.einspaltig+.zweispaltigG,
+a[name*=Section_19]+.einspaltig+.zweispaltigG+.zweispaltigG {
   background-color: #f3f3f3;
   padding-top: 20px;
   padding-bottom: 90px;
@@ -526,34 +521,44 @@ a[name*=Section_17]+.einspaltig+.zweispaltigG+.zweispaltigG {
   min-height: 120px;
 }
 
-a[name*=Section_18]+.einspaltig div div div form {
+a[name*=Section_20]+.einspaltig div div div form {
   background-color: #f3f3f3
 }
 
-a[name*=Section_12]+.einspaltig+.zweispaltigG div img{
+a[name*=Section_12]+.einspaltig+.zweispaltigG div img,
+a[name*=Section_13]+.einspaltig+.zweispaltigG div img,
+a[name*=Section_14]+.einspaltig+.zweispaltigG div img{
   height: 350px;
 }
 
-a[name*=Section_12]+.einspaltig +.zweispaltigG +.zweispaltig div .text_ohne_bild {
+a[name*=Section_12]+.einspaltig +.zweispaltigG +.zweispaltig div .text_ohne_bild,
+a[name*=Section_13]+.einspaltig +.zweispaltigG +.zweispaltig div .text_ohne_bild,
+a[name*=Section_14]+.einspaltig +.zweispaltigG +.zweispaltig div .text_ohne_bild{
   left: -60px !important;
   top: 25px;
   width: 700px !important;
 }
 
-a[name*=Section_12]+.einspaltig +.zweispaltigG +.zweispaltig div .text_ohne_bild h2{
+a[name*=Section_12]+.einspaltig +.zweispaltigG +.zweispaltig div .text_ohne_bild h2,
+a[name*=Section_13]+.einspaltig +.zweispaltigG +.zweispaltig div .text_ohne_bild h2,
+a[name*=Section_14]+.einspaltig +.zweispaltigG +.zweispaltig div .text_ohne_bild h2{
   font-weight: bold;
   font-size: 50px;
   color: #f58220;
   margin-top: 40px !important;
 }
 
-a[name*=Section_12]+.einspaltig +.zweispaltigG +.zweispaltig div .text_ohne_bild p{
+a[name*=Section_12]+.einspaltig +.zweispaltigG +.zweispaltig div .text_ohne_bild p,
+a[name*=Section_13]+.einspaltig +.zweispaltigG +.zweispaltig div .text_ohne_bild p,
+a[name*=Section_14]+.einspaltig +.zweispaltigG +.zweispaltig div .text_ohne_bild p{
   color: #343434;
   margin-top: 30px !important;
   max-width: 700px;
 }
 
-a[name*=Section_12]+.einspaltig +.zweispaltigG {
+a[name*=Section_12]+.einspaltig +.zweispaltigG,
+a[name*=Section_13]+.einspaltig +.zweispaltigG,
+a[name*=Section_14]+.einspaltig +.zweispaltigG {
   background-color: #f3f3f3;
   margin-right: 0px;
   margin-left: 15px;
@@ -561,10 +566,19 @@ a[name*=Section_12]+.einspaltig +.zweispaltigG {
   margin-top: -35px;
 }
 
-a[name*=Section_12]+.einspaltig +.zweispaltigG +.zweispaltig{
+a[name*=Section_12]+.einspaltig +.zweispaltigG +.zweispaltig,
+a[name*=Section_13]+.einspaltig +.zweispaltigG +.zweispaltig,
+a[name*=Section_14]+.einspaltig +.zweispaltigG +.zweispaltig{
   background-color: #f3f3f3;
   margin-left: 0px;
   height: 350px;
   margin-top: -35px;
+}
+
+a[name*=Section_13]+.einspaltig+.zweispaltigG,
+a[name*=Section_14]+.einspaltig+.zweispaltigG,
+a[name*=Section_13]+.einspaltig +.zweispaltigG +.zweispaltig,
+a[name*=Section_14]+.einspaltig +.zweispaltigG +.zweispaltig{
+  display: none !important;
 }
 </style>
