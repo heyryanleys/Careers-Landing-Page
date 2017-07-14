@@ -17,22 +17,22 @@
   $(document).ready(
     function() {
       $('a[name*=Section_10]+.einspaltig+.dreispaltigG').click(function() {
-        $("a[name*=Section_12] + .einspaltig").show();
+        $("a[name*=Section_13] + .einspaltig").show();
         $('.triangle1').show();
-        $("a[name*=Section_13] + .einspaltig").hide();
         $("a[name*=Section_14] + .einspaltig").hide();
+        $("a[name*=Section_15] + .einspaltig").hide();
       });
       $('a[name*=Section_10]+.einspaltig+.dreispaltigG+.dreispaltigG').click(function() {
-        $("a[name*=Section_12] + .einspaltig").hide();
-        $("a[name*=Section_13] + .einspaltig").show();
+        $("a[name*=Section_13] + .einspaltig").hide();
+        $("a[name*=Section_14] + .einspaltig").show();
         $('.triangle2').show();
-        $("a[name*=Section_14] + .einspaltig").hide();
+        $("a[name*=Section_15] + .einspaltig").hide();
       });
       $('a[name*=Section_10]+.einspaltig+.dreispaltigG+.dreispaltigG+.dreispaltigG').click(function() {
-        $("a[name*=Section_12] + .einspaltig").hide();
         $("a[name*=Section_13] + .einspaltig").hide();
+        $("a[name*=Section_14] + .einspaltig").hide();
         $('.triangle3').show();
-        $("a[name*=Section_14] + .einspaltig").show();
+        $("a[name*=Section_15] + .einspaltig").show();
       });
     });
 
