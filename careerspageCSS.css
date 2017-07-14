@@ -8,7 +8,7 @@
   width: 100%;
 }
 
-a[name*=Section_20]+.einspaltig div .text_ohne_bild h2{
+a[name*=Section_17]+.einspaltig div .text_ohne_bild h2{
   padding-left: 200px;
   padding-right: 200px;
   font-size: 30px;
@@ -19,7 +19,7 @@ a[name*=Section_20]+.einspaltig div .text_ohne_bild h2{
 
 a[name*=Section_4]+.einspaltig div .text_ohne_bild p,
 a[name*=Section_5]+.einspaltig div .text_ohne_bild p,
-a[name*=Section_20]+.einspaltig div .text_ohne_bild p {
+a[name*=Section_17]+.einspaltig div .text_ohne_bild p {
   padding-left: 200px;
   padding-right: 200px;
 }
@@ -31,7 +31,7 @@ a[name*=Section_4]+.einspaltig div .text_ohne_bild p {
 }
 
 a[name*=Section_5]+.einspaltig div .text_ohne_bild p,
-a[name*=Section_20]+.einspaltig div .text_ohne_bild p {
+a[name*=Section_17]+.einspaltig div .text_ohne_bild p {
   font-size: 15px;
   font-weight: 100;
   line-height: 20px;
@@ -41,7 +41,7 @@ a[name*=Section_5]+.einspaltig div .text_ohne_bild p {
   margin-top: -20px !important;
 }
 
-a[name*=Section_8]+.einspaltig+.ContentBreak+.zweispaltigG+.zweispaltigG div .text_ohne_bild p,
+a[name*=Section_8]+.einspaltig+.zweispaltigG+.zweispaltigG div .text_ohne_bild p,
 a[name*=Section_9]+.einspaltig+.zweispaltigG div .text_ohne_bild p {
   font-size: 20px;
   min-width: 800px;
@@ -55,12 +55,18 @@ a[name*=Section_9]+.einspaltig+.zweispaltigG div .text_ohne_bild p {
   content: open-quote;
 }
 
-a[name*=Section_8]+.einspaltig+.ContentBreak+.zweispaltigG+.zweispaltigG div .text_ohne_bild p {
+a[name*=Section_8]+.einspaltig+.zweispaltigG+.zweispaltigG div .text_ohne_bild p {
   right: 250px;
 }
 
+/* Spacing first quote lower from timeline */
+a[name*=Section_8]+.einspaltig+.zweispaltigG,
+a[name*=Section_8]+.einspaltig+.zweispaltigG+.zweispaltigG{
+  margin-top:100px;
+}
+
 /*Circle Headshot Styling*/
-a[name*=Section_8]+.einspaltig+.ContentBreak+.zweispaltigG div img,
+a[name*=Section_8]+.einspaltig+.zweispaltigG div img,
 a[name*=Section_9]+.einspaltig+.zweispaltigG+.zweispaltigG div img {
   max-width: 55%;
   position: relative;
@@ -102,8 +108,8 @@ a[name*="Section_6"]+.einspaltig div .text_ohne_bild p {
   top: -830px;
 }
 
-a[name*="Section_19"]+.einspaltig+.zweispaltigG div .text_ohne_bild .link a,
-a[name*="Section_19"]+.einspaltig+.zweispaltigG+.zweispaltigG div .text_ohne_bild .link a,
+a[name*="Section_16"]+.einspaltig+.zweispaltigG div .text_ohne_bild .link a,
+a[name*="Section_16"]+.einspaltig+.zweispaltigG+.zweispaltigG div .text_ohne_bild .link a,
 a[name*=Section_5]+.einspaltig div .link a {
   height: 40px;
   font-size: 15px;
@@ -122,8 +128,8 @@ a[name*=Section_5]+.einspaltig div .link a {
   background-color: #F07D00;
 }
 
-a[name*="Section_19"]+.einspaltig+.zweispaltigG div .text_ohne_bild .link a,
-a[name*="Section_19"]+.einspaltig+.zweispaltigG+.zweispaltigG div .text_ohne_bild .link a {
+a[name*="Section_16"]+.einspaltig+.zweispaltigG div .text_ohne_bild .link a,
+a[name*="Section_16"]+.einspaltig+.zweispaltigG+.zweispaltigG div .text_ohne_bild .link a {
   left: 200px;
   background-color: #f18f3b;
 }
@@ -132,8 +138,8 @@ a[name*=Section_5]+.einspaltig div .link a:hover {
   background-color: #d26e00;
 }
 
-a[name*="Section_19"]+.einspaltig+.zweispaltigG div .text_ohne_bild .link a:hover,
-a[name*="Section_19"]+.einspaltig+.zweispaltigG+.zweispaltigG div .text_ohne_bild .link a:hover {
+a[name*="Section_16"]+.einspaltig+.zweispaltigG div .text_ohne_bild .link a:hover,
+a[name*="Section_16"]+.einspaltig+.zweispaltigG+.zweispaltigG div .text_ohne_bild .link a:hover {
   background-color: #f58220
 }
 
@@ -339,22 +345,6 @@ a[name*=Section_10]+.einspaltig+.dreispaltigG+.dreispaltigG+.dreispaltigG a{
   font-size: 20px
 }
 
-.trainingDIV {
-  width: 100%;
-  overflow: hidden;
-  background-color: #f3f3f3
-}
-
-.trainingtextDIV {
-  margin-left: 350px;
-}
-
-.trainingimgDIV {
-  width: 300px;
-  max-width: 300px;
-  float: left;
-}
-
 .triangle1, .triangle2, .triangle3 {
   background-color: #f58220;
   min-width: 100px;
@@ -385,15 +375,11 @@ a[name*=Section_10]+.einspaltig+.dreispaltigG+.dreispaltigG+.dreispaltigG a{
   display: none;
 }
 
-a[name*=Section_15]+.einspaltig .text_ohne_bild table tr:nth-child(odd) {
-  background: #f3f3f3 !important;
-}
-
 a[name*=Section_10]+.einspaltig+.dreispaltigG,
 a[name*=Section_10]+.einspaltig+.dreispaltigG+.dreispaltigG,
 a[name*=Section_10]+.einspaltig+.dreispaltigG+.dreispaltigG+.dreispaltigG,
-a[name*=Section_18]+.einspaltig+.zweispaltigG div div,
-a[name*=Section_18]+.einspaltig+.zweispaltigG+.zweispaltigG div div {
+a[name*=Section_15]+.einspaltig+.zweispaltigG div div,
+a[name*=Section_15]+.einspaltig+.zweispaltigG+.zweispaltigG div div {
   height: 65px;
   text-align: center;
   vertical-align: center;
@@ -405,50 +391,39 @@ a[name*=Section_10]+.einspaltig+.dreispaltigG+.dreispaltigG+.dreispaltigG {
   background-color: #f58220;
 }
 
-a[name*=Section_18]+.einspaltig+.zweispaltigG div div,
-a[name*=Section_18]+.einspaltig+.zweispaltigG+.zweispaltigG div div {
+a[name*=Section_15]+.einspaltig+.zweispaltigG div div,
+a[name*=Section_15]+.einspaltig+.zweispaltigG+.zweispaltigG div div {
   background-color: #5e5e5e;
 }
 
-a[name*=Section_18]+.einspaltig+.zweispaltigG div div h2,
-a[name*=Section_18]+.einspaltig+.zweispaltigG+.zweispaltigG div div h2 {
+a[name*=Section_15]+.einspaltig+.zweispaltigG div div h2,
+a[name*=Section_15]+.einspaltig+.zweispaltigG+.zweispaltigG div div h2 {
   color: white;
   font-size: 20px !important;
   font-weight: 100;
 }
 
-a[name*=Section_18]+.einspaltig+.zweispaltigG div div h2 {
-  padding-top: 4px;
-}
-
-a[name*=Section_18]+.einspaltig+.zweispaltigG+.zweispaltigG div div h2 {
-  padding-top: 9px;
+a[name*=Section_15]+.einspaltig+.zweispaltigG div div h2,
+a[name*=Section_15]+.einspaltig+.zweispaltigG+.zweispaltigG div div h2 {
+  padding-top: 10px;
 }
 
 a[name*=Section_10]+.einspaltig+.dreispaltigG+.dreispaltigG+.dreispaltigG+.ContentBreak+.NonSpaceingBreak td {
   padding: 5px !important;
 }
 
-a[name*=Section_15]+.einspaltig,
-a[name*=Section_16]+.einspaltig,
-a[name*=Section_17]+.einspaltig {
-  margin-left: 0px
-}
 
 a[name*=Section_6]+.einspaltig div .text_ohne_bild {
   margin-bottom: -1200px;
 }
 
-a[name*=Section_17]+.einspaltig+.NonSpaceingBreak td {
-  padding: 36px !important;
-}
 
-a[name*=Section_18]+.einspaltig+.zweispaltigG+.zweispaltigG+.ContentBreak+.NonSpaceingBreak td {
+a[name*=Section_15]+.einspaltig+.zweispaltigG+.zweispaltigG+.ContentBreak+.NonSpaceingBreak td {
   padding: 10px !important;
 }
 
-a[name*=Section_19]+.einspaltig+.zweispaltigG,
-a[name*=Section_19]+.einspaltig+.zweispaltigG+.zweispaltigG {
+a[name*=Section_16]+.einspaltig+.zweispaltigG,
+a[name*=Section_16]+.einspaltig+.zweispaltigG+.zweispaltigG {
   background-color: #f3f3f3;
   padding-top: 20px;
   padding-bottom: 90px;
@@ -476,6 +451,10 @@ a[name*=Section_19]+.einspaltig+.zweispaltigG+.zweispaltigG {
   background-color: #d26e00;
 }
 
+/* Moves error message to be within div*/
+.hs-error-msgs{
+  margin-left: 20px;
+}
 /* Sizing of Form Fields */
 .form-columns-2 .hs-input {
   height: 30px;
@@ -516,7 +495,7 @@ a[name*=Section_19]+.einspaltig+.zweispaltigG+.zweispaltigG {
   min-height: 120px;
 }
 
-a[name*=Section_20]+.einspaltig div div div form {
+a[name*=Section_17]+.einspaltig div div div form {
   background-color: #f3f3f3
 }
 
