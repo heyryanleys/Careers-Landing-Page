@@ -332,14 +332,11 @@ a[name*=Section_10]+.einspaltig+.dreispaltigG+.dreispaltigG+.dreispaltigG {
   font-size: 20px;
 }
 
-a[name*=Section_10]+.einspaltig+.dreispaltigG div +.text+.LinkList+.link a {
+a[name*=Section_10]+.einspaltig+.dreispaltigG a,
+a[name*=Section_10]+.einspaltig+.dreispaltigG+.dreispaltigG a,
+a[name*=Section_10]+.einspaltig+.dreispaltigG+.dreispaltigG+.dreispaltigG a{
   color: white;
   font-size: 20px
-}
-
-.moreinfolinks {
-  color: white;
-  font-size: 20px;
 }
 
 .companyinfo {
