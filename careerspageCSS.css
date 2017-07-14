@@ -435,11 +435,6 @@ a[name*=Section_17]+.einspaltig {
   margin-left: 0px
 }
 
-a[name*=Section_15]+.einspaltig+.NonSpaceingBreak td,
-a[name*=Section_16]+.einspaltig+.NonSpaceingBreak td {
-  padding: 0px !important;
-}
-
 a[name*=Section_6]+.einspaltig div .text_ohne_bild {
   margin-bottom: -1200px;
 }
@@ -580,5 +575,10 @@ a[name*=Section_14]+.einspaltig+.zweispaltigG,
 a[name*=Section_13]+.einspaltig +.zweispaltigG +.zweispaltig,
 a[name*=Section_14]+.einspaltig +.zweispaltigG +.zweispaltig{
   display: none !important;
+}
+
+a[name*=Section_12]+.einspaltig+.zweispaltigG+.zweispaltig+.NonSpaceingBreak td,
+a[name*=Section_13]+.einspaltig+.zweispaltigG+.zweispaltig+.NonSpaceingBreak td {
+  padding: 0px !important;
 }
 </style>
