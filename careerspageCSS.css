@@ -339,19 +339,6 @@ a[name*=Section_10]+.einspaltig+.dreispaltigG+.dreispaltigG+.dreispaltigG a{
   font-size: 20px
 }
 
-.companyinfo {
-  font-weight: bold;
-  font-size: 50px;
-  color: #f58220;
-  margin-top: 40px !important;
-}
-
-.companyinfo2 {
-  color: #343434;
-  margin-top: 30px !important;
-  max-width: 700px;
-}
-
 .trainingDIV {
   width: 100%;
   overflow: hidden;
@@ -547,17 +534,30 @@ a[name*=Section_11]+.einspaltig+.zweispaltigG div img{
   height: 350px;
 }
 
-/*a[name*=Section_11]+.zweispaltig div .text_ohne_bild p{
-  margin-left: -230px;
-}*/
-
-.zweispaltig div .text_ohne_bild{
+a[name*=Section_11]+.einspaltig +.zweispaltigG +.zweispaltig div .text_ohne_bild {
   left: -60px !important;
   top: 25px;
   width: 700px !important;
 }
 
-a[name*=Section_11]+.einsplatig+.zweispaltig div .text_ohne_bild h2{
+a[name*=Section_11]+.einspaltig +.zweispaltigG +.zweispaltig div .text_ohne_bild h2{
+  font-weight: bold;
+  font-size: 50px;
   color: #f58220;
+  margin-top: 40px !important;
+}
+
+a[name*=Section_11]+.einspaltig +.zweispaltigG +.zweispaltig div .text_ohne_bild p{
+  color: #343434;
+  margin-top: 30px !important;
+  max-width: 700px;
+}
+
+a[name*=Section_11]+.einspaltig +.zweispaltigG {
+  background-color: #f3f3f3
+}
+
+a[name*=Section_11]+.einspaltig +.zweispaltigG +.zweispaltig{
+  background-color: #f3f3f3
 }
 </style>
