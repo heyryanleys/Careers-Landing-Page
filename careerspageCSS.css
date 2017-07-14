@@ -325,6 +325,17 @@ br {
   margin: 0px;
   padding-top: -20px !important
 }
+a[name*=Section_10]+.einspaltig+.dreispaltigG,
+a[name*=Section_10]+.einspaltig+.dreispaltigG+.dreispaltigG,
+a[name*=Section_10]+.einspaltig+.dreispaltigG+.dreispaltigG+.dreispaltigG {
+  padding-top: 20px;
+  font-size: 20px;
+}
+
+a[name*=Section_10]+.einspaltig+.dreispaltigG div +.text+.LinkList+.link a {
+  color: white;
+  font-size: 20px
+}
 
 .moreinfolinks {
   color: white;
@@ -381,12 +392,12 @@ br {
 }
 
 .triangle2 {
-  margin-left: 650px;
+  margin-left: 640px;
   display: none;
 }
 
 .triangle3 {
-  margin-left: 1040px;
+  margin-left: 1020px;
   display: none;
 }
 
@@ -478,7 +489,7 @@ a[name*=Section_15]+.einspaltig+.zweispaltigG+.zweispaltigG {
 /* Form Button Styling*/
 .hs-button.primary.large {
   position: relative;
-  left: 910px;
+  left: 890px;
   top: 15px;
   width: 200px;
   height: 40px;
