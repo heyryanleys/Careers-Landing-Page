@@ -8,6 +8,16 @@
   width: 100%;
 }
 
+/* Eliminating ContentBreak */
+.ContentBreak {
+  height: 0px;
+}
+
+/* Changing height of line break */
+br {
+  line-height: 2.4em;
+}
+
 a[name*=Section_17]+.einspaltig div .text_ohne_bild h2{
   padding-left: 200px;
   padding-right: 200px;
@@ -17,6 +27,21 @@ a[name*=Section_17]+.einspaltig div .text_ohne_bild h2{
   text-align: center;
 }
 
+a[name*=Section_4]+.einspaltig div .text_ohne_bild p {
+  font-size: 30px;
+  font-weight: bold;
+  line-height: 35px;
+}
+
+a[name*=Section_5]+.einspaltig div .text_ohne_bild p {
+  margin-top: -20px !important;
+}
+
+a[name*=Section_5]+.einspaltig div .link a {
+  left: 500px;
+  background-color: #F07D00;
+}
+
 a[name*=Section_4]+.einspaltig div .text_ohne_bild p,
 a[name*=Section_5]+.einspaltig div .text_ohne_bild p,
 a[name*=Section_17]+.einspaltig div .text_ohne_bild p {
@@ -24,21 +49,11 @@ a[name*=Section_17]+.einspaltig div .text_ohne_bild p {
   padding-right: 200px;
 }
 
-a[name*=Section_4]+.einspaltig div .text_ohne_bild p {
-  font-size: 30px;
-  font-weight: bold;
-  line-height: 35px;
-}
-
 a[name*=Section_5]+.einspaltig div .text_ohne_bild p,
 a[name*=Section_17]+.einspaltig div .text_ohne_bild p {
   font-size: 15px;
   font-weight: 100;
   line-height: 20px;
-}
-
-a[name*=Section_5]+.einspaltig div .text_ohne_bild p {
-  margin-top: -20px !important;
 }
 
 a[name*=Section_8]+.einspaltig+.zweispaltigG+.zweispaltigG div .text_ohne_bild p,
@@ -76,10 +91,6 @@ a[name*=Section_9]+.einspaltig+.zweispaltigG+.zweispaltigG div img {
   right: -260px;
 }
 
-.ContentBreak {
-  height: 0px;
-}
-
 a[name*="Section_6"]+.einspaltig div .text_ohne_bild p {
   width: 750px;
   position: relative;
@@ -87,6 +98,7 @@ a[name*="Section_6"]+.einspaltig div .text_ohne_bild p {
   z-index: 99;
 }
 
+/* Styling for circles in the background*/
 .orangecircle, .greycircle {
   min-height: 600px;
   max-width: 600px;
@@ -123,11 +135,6 @@ a[name*=Section_5]+.einspaltig div .link a {
   top: 30px;
 }
 
-a[name*=Section_5]+.einspaltig div .link a {
-  left: 500px;
-  background-color: #F07D00;
-}
-
 a[name*="Section_16"]+.einspaltig+.zweispaltigG div .text_ohne_bild .link a,
 a[name*="Section_16"]+.einspaltig+.zweispaltigG+.zweispaltigG div .text_ohne_bild .link a {
   left: 200px;
@@ -147,10 +154,7 @@ a[name*=Section_3]+.NonSpaceingBreak>.NonSpaceingBreak td {
   padding: 0px;
 }
 
-br {
-  line-height: 2.4em;
-}
-
+/* Styling for Timeline */
 .box {
   max-width: 1000px;
   max-height: 300px;
@@ -327,15 +331,19 @@ br {
   min-width: 240px;
 }
 
+/* Bolding text on timeline */
 .boldDate {
   margin: 0px;
   padding-top: -20px !important
 }
+
+/* Trainings, Company Culture and Office Label Styling */
 a[name*=Section_10]+.einspaltig+.dreispaltigG,
 a[name*=Section_10]+.einspaltig+.dreispaltigG+.dreispaltigG,
 a[name*=Section_10]+.einspaltig+.dreispaltigG+.dreispaltigG+.dreispaltigG {
   padding-top: 20px;
   font-size: 20px;
+  background-color: #f58220;
 }
 
 a[name*=Section_10]+.einspaltig+.dreispaltigG a,
@@ -345,6 +353,37 @@ a[name*=Section_10]+.einspaltig+.dreispaltigG+.dreispaltigG+.dreispaltigG a{
   font-size: 20px
 }
 
+a[name*=Section_15]+.einspaltig+.zweispaltigG div div h2,
+a[name*=Section_15]+.einspaltig+.zweispaltigG+.zweispaltigG div div h2 {
+  padding-top: 10px;
+}
+
+/* Height and Positioning of Trainings, Company Culture, and Office Space along with e-chain and dry-tech labels */
+a[name*=Section_10]+.einspaltig+.dreispaltigG,
+a[name*=Section_10]+.einspaltig+.dreispaltigG+.dreispaltigG,
+a[name*=Section_10]+.einspaltig+.dreispaltigG+.dreispaltigG+.dreispaltigG,
+a[name*=Section_15]+.einspaltig+.zweispaltigG div div,
+a[name*=Section_15]+.einspaltig+.zweispaltigG+.zweispaltigG div div {
+  height: 65px;
+  text-align: center;
+  vertical-align: center;
+}
+
+/* Background color for e-chain and dry-tech tabels */
+a[name*=Section_15]+.einspaltig+.zweispaltigG div div,
+a[name*=Section_15]+.einspaltig+.zweispaltigG+.zweispaltigG div div {
+  background-color: #5e5e5e;
+}
+
+/* Text styling for e-chain and dry-tech labels */
+a[name*=Section_15]+.einspaltig+.zweispaltigG div div h2,
+a[name*=Section_15]+.einspaltig+.zweispaltigG+.zweispaltigG div div h2 {
+  color: white;
+  font-size: 20px !important;
+  font-weight: 100;
+}
+
+/* Styling for triangles that show which label is selected */
 .triangle1, .triangle2, .triangle3 {
   background-color: #f58220;
   min-width: 100px;
@@ -375,38 +414,8 @@ a[name*=Section_10]+.einspaltig+.dreispaltigG+.dreispaltigG+.dreispaltigG a{
   display: none;
 }
 
-a[name*=Section_10]+.einspaltig+.dreispaltigG,
-a[name*=Section_10]+.einspaltig+.dreispaltigG+.dreispaltigG,
-a[name*=Section_10]+.einspaltig+.dreispaltigG+.dreispaltigG+.dreispaltigG,
-a[name*=Section_15]+.einspaltig+.zweispaltigG div div,
-a[name*=Section_15]+.einspaltig+.zweispaltigG+.zweispaltigG div div {
-  height: 65px;
-  text-align: center;
-  vertical-align: center;
-}
 
-a[name*=Section_10]+.einspaltig+.dreispaltigG,
-a[name*=Section_10]+.einspaltig+.dreispaltigG+.dreispaltigG,
-a[name*=Section_10]+.einspaltig+.dreispaltigG+.dreispaltigG+.dreispaltigG {
-  background-color: #f58220;
-}
 
-a[name*=Section_15]+.einspaltig+.zweispaltigG div div,
-a[name*=Section_15]+.einspaltig+.zweispaltigG+.zweispaltigG div div {
-  background-color: #5e5e5e;
-}
-
-a[name*=Section_15]+.einspaltig+.zweispaltigG div div h2,
-a[name*=Section_15]+.einspaltig+.zweispaltigG+.zweispaltigG div div h2 {
-  color: white;
-  font-size: 20px !important;
-  font-weight: 100;
-}
-
-a[name*=Section_15]+.einspaltig+.zweispaltigG div div h2,
-a[name*=Section_15]+.einspaltig+.zweispaltigG+.zweispaltigG div div h2 {
-  padding-top: 10px;
-}
 
 a[name*=Section_10]+.einspaltig+.dreispaltigG+.dreispaltigG+.dreispaltigG+.ContentBreak+.NonSpaceingBreak td {
   padding: 5px !important;
