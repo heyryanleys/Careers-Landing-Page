@@ -495,7 +495,7 @@ a[name*=Section_15]+.einspaltig+.zweispaltigG+.zweispaltigG {
 .form-columns-2 .hs-input {
   height: 30px;
   line-height: 50px;
-  width: 530px;
+  width: 540px;
   padding-left: 15px;
   border: 1px solid #ABABAB;
 }
@@ -526,8 +526,8 @@ a[name*=Section_15]+.einspaltig+.zweispaltigG+.zweispaltigG {
 }
 
 .form-columns-1 .hs-input {
-  max-width: 1110px;
-  min-width: 1110px;
+  max-width: 1090px;
+  min-width: 1090px;
   min-height: 120px;
 }
 
