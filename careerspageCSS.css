@@ -554,10 +554,15 @@ a[name*=Section_11]+.einspaltig +.zweispaltigG +.zweispaltig div .text_ohne_bild
 }
 
 a[name*=Section_11]+.einspaltig +.zweispaltigG {
-  background-color: #f3f3f3
+  background-color: #f3f3f3;
+  margin-right: 0px;
+  margin-left: 15px;
+  height: 350px;
 }
 
 a[name*=Section_11]+.einspaltig +.zweispaltigG +.zweispaltig{
-  background-color: #f3f3f3
+  background-color: #f3f3f3;
+  margin-left: 0px;
+  height: 350px;
 }
 </style>
