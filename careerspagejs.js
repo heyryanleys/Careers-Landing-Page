@@ -61,13 +61,22 @@
   $(document).ready(
   function(){
     $("#video1").click(function(){
-      $('a[name*="Section_6"]+.einspaltig div .text_ohne_bild p iframe').prop('src', 'https://www.youtube.com/embed/a7fz0R3qSvk')
+      $('a[name*="Section_6"]+.einspaltig div .text_ohne_bild p iframe').prop('src', 'https://www.youtube.com/embed/a7fz0R3qSvk');
+      document.getElementById("video1").style.border = "3px solid #f58220"
+      document.getElementById("video2").style.border = "none"
+      document.getElementById("video3").style.border = "none"
     })
     $("#video2").click(function(){
-      $('a[name*="Section_6"]+.einspaltig div .text_ohne_bild p iframe').prop('src', 'https://www.youtube.com/embed/9aeYsG5DCUo')
+      $('a[name*="Section_6"]+.einspaltig div .text_ohne_bild p iframe').prop('src', 'https://www.youtube.com/embed/9aeYsG5DCUo');
+      document.getElementById("video1").style.border = "none"
+      document.getElementById("video2").style.border = "3px solid #f58220"
+      document.getElementById("video3").style.border = "none"
     })
     $("#video3").click(function(){
-      $('a[name*="Section_6"]+.einspaltig div .text_ohne_bild p iframe').prop('src', 'https://www.youtube.com/embed/ZGBipbgwgME')
+      $('a[name*="Section_6"]+.einspaltig div .text_ohne_bild p iframe').prop('src', 'https://www.youtube.com/embed/ZGBipbgwgME');
+      document.getElementById("video1").style.border = "none"
+      document.getElementById("video2").style.border = "none"
+      document.getElementById("video3").style.border = "3px solid #f58220"
     })
   });
 </script>
