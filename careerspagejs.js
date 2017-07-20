@@ -16,38 +16,38 @@
   });
   $(document).ready(
     function() {
-      $('a[name*=Section_10]+.einspaltig+.dreispaltigG').click(function() {
+      $('a[name*=Section_11]+.einspaltig+.dreispaltigG').click(function() {
         $('.triangle1').show();
         $('.triangle2').hide();
         $('.triangle3').hide();
-        $("a[name*=Section_12]+.einspaltig+.zweispaltigG").attr("style", "display: block !important");
-        $("a[name*=Section_13]+.einspaltig+.zweispaltigG").attr("style", "display: none !important");
+        $("a[name*=Section_13]+.einspaltig+.zweispaltigG").attr("style", "display: block !important");
         $("a[name*=Section_14]+.einspaltig+.zweispaltigG").attr("style", "display: none !important");
-        $("a[name*=Section_12]+.einspaltig +.zweispaltigG +.zweispaltig").attr("style", "display: block !important");
-        $("a[name*=Section_13]+.einspaltig +.zweispaltigG +.zweispaltig").attr("style", "display: none !important");
+        $("a[name*=Section_15]+.einspaltig+.zweispaltigG").attr("style", "display: none !important");
+        $("a[name*=Section_13]+.einspaltig +.zweispaltigG +.zweispaltig").attr("style", "display: block !important");
         $("a[name*=Section_14]+.einspaltig +.zweispaltigG +.zweispaltig").attr("style", "display: none !important");
+        $("a[name*=Section_15]+.einspaltig +.zweispaltigG +.zweispaltig").attr("style", "display: none !important");
       });
-      $('a[name*=Section_10]+.einspaltig+.dreispaltigG+.dreispaltigG').click(function() {
+      $('a[name*=Section_11]+.einspaltig+.dreispaltigG+.dreispaltigG').click(function() {
         $('.triangle1').hide();
         $('.triangle2').show();
         $('.triangle3').hide();
-        $("a[name*=Section_12]+.einspaltig+.zweispaltigG").attr("style", "display: none !important");
-        $("a[name*=Section_13]+.einspaltig+.zweispaltigG").attr("style", "display: block !important");
-        $("a[name*=Section_14]+.einspaltig+.zweispaltigG").attr("style", "display: none !important");
-        $("a[name*=Section_12]+.einspaltig +.zweispaltigG +.zweispaltig").attr("style", "display: none !important");
-        $("a[name*=Section_13]+.einspaltig +.zweispaltigG +.zweispaltig").attr("style", "display: block !important");
-        $("a[name*=Section_14]+.einspaltig +.zweispaltigG +.zweispaltig").attr("style", "display: none !important");
+        $("a[name*=Section_13]+.einspaltig+.zweispaltigG").attr("style", "display: none !important");
+        $("a[name*=Section_14]+.einspaltig+.zweispaltigG").attr("style", "display: block !important");
+        $("a[name*=Section_15]+.einspaltig+.zweispaltigG").attr("style", "display: none !important");
+        $("a[name*=Section_13]+.einspaltig +.zweispaltigG +.zweispaltig").attr("style", "display: none !important");
+        $("a[name*=Section_14]+.einspaltig +.zweispaltigG +.zweispaltig").attr("style", "display: block !important");
+        $("a[name*=Section_15]+.einspaltig +.zweispaltigG +.zweispaltig").attr("style", "display: none !important");
       });
-      $('a[name*=Section_10]+.einspaltig+.dreispaltigG+.dreispaltigG+.dreispaltigG').click(function() {
+      $('a[name*=Section_11]+.einspaltig+.dreispaltigG+.dreispaltigG+.dreispaltigG').click(function() {
         $('.triangle1').hide();
         $('.triangle2').hide();
         $('.triangle3').show();
-        $("a[name*=Section_12]+.einspaltig+.zweispaltigG").attr("style", "display: none !important");
         $("a[name*=Section_13]+.einspaltig+.zweispaltigG").attr("style", "display: none !important");
-        $("a[name*=Section_14]+.einspaltig+.zweispaltigG").attr("style", "display: block !important");
-        $("a[name*=Section_12]+.einspaltig +.zweispaltigG +.zweispaltig").attr("style", "display: none !important");
+        $("a[name*=Section_14]+.einspaltig+.zweispaltigG").attr("style", "display: none !important");
+        $("a[name*=Section_15]+.einspaltig+.zweispaltigG").attr("style", "display: block !important");
         $("a[name*=Section_13]+.einspaltig +.zweispaltigG +.zweispaltig").attr("style", "display: none !important");
-        $("a[name*=Section_14]+.einspaltig +.zweispaltigG +.zweispaltig").attr("style", "display: block !important");
+        $("a[name*=Section_14]+.einspaltig +.zweispaltigG +.zweispaltig").attr("style", "display: none !important");
+        $("a[name*=Section_15]+.einspaltig +.zweispaltigG +.zweispaltig").attr("style", "display: block !important");
       });
     });
 
