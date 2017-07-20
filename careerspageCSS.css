@@ -583,4 +583,34 @@ a[name*=Section_7]+.einspaltig+.dreispaltig+.dreispaltig+.dreispaltig div .text_
   margin-left: -60px !important;
 }
 
+#video1,
+#video2,
+#video3{
+  height: 111px;
+  width: 200px !important;
+  position: absolute;
+  top: 0px;
+  cursor: pointer;
+  z-index: 1;
+}
+
+#video1:hover,
+#video2:hover,
+#video3:hover{
+  border: 2px solid #f58220 !important;
+}
+
+#video1{
+  margin-left: 260px;
+  border: 3px solid #f58220;
+}
+
+#video2{
+  margin-left: 100px;
+}
+
+
+#video3{
+  margin-left: -60px;
+}
 </style>

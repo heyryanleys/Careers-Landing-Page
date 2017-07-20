@@ -60,8 +60,14 @@
 
   $(document).ready(
   function(){
-    $("a[name*=Section_3]+.einspaltigG img").click(function(){
+    $("#video1").click(function(){
+      $('a[name*="Section_6"]+.einspaltig div .text_ohne_bild p iframe').prop('src', 'https://www.youtube.com/embed/a7fz0R3qSvk')
+    })
+    $("#video2").click(function(){
       $('a[name*="Section_6"]+.einspaltig div .text_ohne_bild p iframe').prop('src', 'https://www.youtube.com/embed/9aeYsG5DCUo')
+    })
+    $("#video3").click(function(){
+      $('a[name*="Section_6"]+.einspaltig div .text_ohne_bild p iframe').prop('src', 'https://www.youtube.com/embed/ZGBipbgwgME')
     })
   });
 </script>
