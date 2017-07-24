@@ -517,7 +517,7 @@ a[name*=Section_15]+.einspaltig+.zweispaltigG div img{
 a[name*=Section_13]+.einspaltig +.zweispaltigG +.zweispaltig div .text_ohne_bild,
 a[name*=Section_14]+.einspaltig +.zweispaltigG +.zweispaltig div .text_ohne_bild,
 a[name*=Section_15]+.einspaltig +.zweispaltigG +.zweispaltig div .text_ohne_bild{
-  left: -60px !important;
+  left: -55px !important;
   top: 25px;
   width: 700px !important;
 }
