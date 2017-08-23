@@ -17,9 +17,6 @@
   $(document).ready(
     function() {
       $('a[name*=Section_11]+.einspaltig+.dreispaltigG').click(function() {
-        $('.triangle1').show();
-        $('.triangle2').hide();
-        $('.triangle3').hide();
         $("a[name*=Section_13]+.einspaltig+.zweispaltigG").attr("style", "display: block !important");
         $("a[name*=Section_14]+.einspaltig+.zweispaltigG").attr("style", "display: none !important");
         $("a[name*=Section_15]+.einspaltig+.zweispaltigG").attr("style", "display: none !important");
@@ -28,9 +25,6 @@
         $("a[name*=Section_15]+.einspaltig +.zweispaltigG +.zweispaltig").attr("style", "display: none !important");
       });
       $('a[name*=Section_11]+.einspaltig+.dreispaltigG+.dreispaltigG').click(function() {
-        $('.triangle1').hide();
-        $('.triangle2').show();
-        $('.triangle3').hide();
         $("a[name*=Section_13]+.einspaltig+.zweispaltigG").attr("style", "display: none !important");
         $("a[name*=Section_14]+.einspaltig+.zweispaltigG").attr("style", "display: block !important");
         $("a[name*=Section_15]+.einspaltig+.zweispaltigG").attr("style", "display: none !important");
@@ -39,9 +33,6 @@
         $("a[name*=Section_15]+.einspaltig +.zweispaltigG +.zweispaltig").attr("style", "display: none !important");
       });
       $('a[name*=Section_11]+.einspaltig+.dreispaltigG+.dreispaltigG+.dreispaltigG').click(function() {
-        $('.triangle1').hide();
-        $('.triangle2').hide();
-        $('.triangle3').show();
         $("a[name*=Section_13]+.einspaltig+.zweispaltigG").attr("style", "display: none !important");
         $("a[name*=Section_14]+.einspaltig+.zweispaltigG").attr("style", "display: none !important");
         $("a[name*=Section_15]+.einspaltig+.zweispaltigG").attr("style", "display: block !important");
@@ -73,10 +64,70 @@
       document.getElementById("video3").style.border = "none"
     })
     $("#video3").click(function(){
-      $('a[name*="Section_6"]+.einspaltig div .text_ohne_bild p iframe').prop('src', 'https://www.youtube.com/embed/ZGBipbgwgME');
+      $('a[name*="Section_6"]+.einspaltig div .text_ohne_bild p iframe').prop('src', 'https://www.youtube.com/embed/90PHsrUZe7g');
       document.getElementById("video1").style.border = "none"
       document.getElementById("video2").style.border = "none"
       document.getElementById("video3").style.border = "3px solid #f58220"
     })
   });
+
+  // Hiding clip-paths for unsupported browsers //
+$(document).ready(
+  function(){
+  var areClipPathShapesSupported = function () {
+
+	var base = 'clipPath',
+		prefixes = [ 'webkit', 'moz', 'ms', 'o' ],
+		properties = [ base ],
+		testElement = document.createElement( 'testelement' ),
+		attribute = 'polygon(50% 0%, 0% 100%, 100% 100%)';
+
+	// Push the prefixed properties into the array of properties.
+	for ( var i = 0, l = prefixes.length; i < l; i++ ) {
+		var prefixedProperty = prefixes[i] + base.charAt( 0 ).toUpperCase() + base.slice( 1 ); // remember to capitalize!
+		properties.push( prefixedProperty );
+	}
+
+	// Interate over the properties and see if they pass two tests.
+	for ( var i = 0, l = properties.length; i < l; i++ ) {
+		var property = properties[i];
+
+		// First, they need to even support clip-path (IE <= 11 does not)...
+		if ( testElement.style[property] === '' ) {
+
+			// Second, we need to see what happens when we try to create a CSS shape...
+			testElement.style[property] = attribute;
+			if ( testElement.style[property] !== '' ) {
+				return true;
+			}
+		}
+	}
+
+	return false;
+};
+
+if ( areClipPathShapesSupported() ) {
+  $('a[name*=Section_11]+.einspaltig+.dreispaltigG').click(function() {
+    $('.triangle1').attr('style','display:block');
+    $('.triangle2').attr('style','display:none');
+    $('.triangle3').attr('style','display:none');
+  });
+  $('a[name*=Section_11]+.einspaltig+.dreispaltigG+.dreispaltigG').click(function() {
+    $('.triangle1').attr('style','display:none');
+    $('.triangle2').attr('style','display:block');
+    $('.triangle3').attr('style','display:none');
+  });
+  $('a[name*=Section_11]+.einspaltig+.dreispaltigG+.dreispaltigG+.dreispaltigG').click(function() {
+    $('.triangle1').attr('style','display:none');
+    $('.triangle2').attr('style','display:none');
+    $('.triangle3').attr('style','display:block');
+  });
+}
+else {
+  $('.triangle1').attr('style','display:none !important');
+  $('.triangle2').attr('style','display:none !important');
+  $('.triangle3').attr('style','display:none !important');
+}
+});
+
 </script>
