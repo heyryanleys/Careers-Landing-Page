@@ -62,7 +62,7 @@ a[name*=Section_10]+.einspaltig+.zweispaltigG div .text_ohne_bild p {
   min-width: 800px;
   position: relative;
   top: 100px;
-  background: #f3f3f3;
+  background: #f1f1f1;
   border-left: 10px solid #f58220;
   margin: 1.5em 10px;
   padding: 0.5em 10px;
@@ -433,7 +433,7 @@ a[name*=Section_16]+.einspaltig+.zweispaltigG+.zweispaltigG+.ContentBreak+.NonSp
 
 a[name*=Section_17]+.einspaltig+.zweispaltigG,
 a[name*=Section_17]+.einspaltig+.zweispaltigG+.zweispaltigG {
-  background-color: #f3f3f3;
+  background-color: #f1f1f1;
   padding-top: 20px;
   padding-bottom: 90px;
   height: 330px;
@@ -505,7 +505,7 @@ a[name*=Section_17]+.einspaltig+.zweispaltigG+.zweispaltigG {
 }
 
 a[name*=Section_18]+.einspaltig div div div form {
-  background-color: #f3f3f3
+  background-color: #f1f1f1
 }
 
 a[name*=Section_13]+.einspaltig+.zweispaltigG div img,
@@ -542,7 +542,7 @@ a[name*=Section_15]+.einspaltig +.zweispaltigG +.zweispaltig div .text_ohne_bild
 a[name*=Section_13]+.einspaltig +.zweispaltigG,
 a[name*=Section_14]+.einspaltig +.zweispaltigG,
 a[name*=Section_15]+.einspaltig +.zweispaltigG {
-  background-color: #f3f3f3;
+  background-color: #f1f1f1;
   margin-right: 0px;
   margin-left: 15px;
   height: 350px;
@@ -552,7 +552,7 @@ a[name*=Section_15]+.einspaltig +.zweispaltigG {
 a[name*=Section_13]+.einspaltig +.zweispaltigG +.zweispaltig,
 a[name*=Section_14]+.einspaltig +.zweispaltigG +.zweispaltig,
 a[name*=Section_15]+.einspaltig +.zweispaltigG +.zweispaltig{
-  background-color: #f3f3f3;
+  background-color: #f1f1f1;
   margin-left: 0px;
   height: 350px;
   margin-top: -35px;
@@ -612,5 +612,9 @@ a[name*=Section_7]+.einspaltig+.dreispaltig+.dreispaltig+.dreispaltig div .text_
 
 #video3{
   margin-left: -60px;
+}
+
+.submitted-message{
+text-align: center;
 }
 </style>
