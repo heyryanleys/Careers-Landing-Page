@@ -43,13 +43,6 @@
     });
 
   $(document).ready(
-    function(){
-      if ($('a[name*=Section_3]+.einspaltigG img').attr('alt')){
-        $('a[name*=Section_3]+.einspaltigG img').attr('src','https://s17.postimg.org/hv2mzuulr/careersupdatedbanner.png');
-      }
-    });
-
-  $(document).ready(
   function(){
     $("#video1").click(function(){
       $('a[name*="Section_6"]+.einspaltig div .text_ohne_bild p iframe').prop('src', 'https://www.youtube.com/embed/a7fz0R3qSvk');
