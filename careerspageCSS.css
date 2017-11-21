@@ -19,21 +19,19 @@ br {
 }
 
 /* Padding of banner image */
-a[name*=Section_3]+.NonSpaceingBreak>.NonSpaceingBreak td {
+a[name*=Section_2]+.einspaltig +.NonSpaceingBreak td{
   padding: 0px;
 }
 
 /* Headline text styling */
-a[name*=Section_4]+.einspaltig div .text_ohne_bild p {
-  font-size: 30px;
-  font-weight: bold;
-  line-height: 35px;
+a[name*=Section_4]+.einspaltig div h1 {
+  padding-bottom: 25px;
 }
 
 /* Padding the the headline. text beneath the headline, and the text beneath "Join the team!" to be skinny and in the center */
-a[name*=Section_4]+.einspaltig div .text_ohne_bild p,
+a[name*=Section_4]+.einspaltig div h1,
 a[name*=Section_5]+.einspaltig div .text_ohne_bild p,
-a[name*=Section_18]+.einspaltig div .text_ohne_bild p {
+a[name*=Section_19]+.einspaltig div .text_ohne_bild p {
   padding-left: 200px;
   padding-right: 200px;
 }
@@ -45,7 +43,7 @@ a[name*=Section_5]+.einspaltig div .text_ohne_bild p {
 
 /* Changing the font styling for the text beneath the headline, and the text beneath "Join the team!" */
 a[name*=Section_5]+.einspaltig div .text_ohne_bild p,
-a[name*=Section_18]+.einspaltig div .text_ohne_bild p {
+a[name*=Section_19]+.einspaltig div .text_ohne_bild p {
   font-size: 15px;
   font-weight: 100;
   line-height: 20px;
@@ -64,8 +62,8 @@ a[name*=Section_5]+.einspaltig div .link a:hover {
 
 /* CTA Button Text Styling for "See Open Positions", "Learn about ECS", and "Learn about dry-tech" */
 a[name*=Section_5]+.einspaltig div .link a,
-a[name*="Section_17"]+.einspaltig+.zweispaltigG div .text_ohne_bild .link a,
-a[name*="Section_17"]+.einspaltig+.zweispaltigG+.zweispaltigG div .text_ohne_bild .link a{
+a[name*="Section_18"]+.einspaltig+.zweispaltigG div .text_ohne_bild .link a,
+a[name*="Section_18"]+.einspaltig+.zweispaltigG+.zweispaltigG div .text_ohne_bild .link a{
   height: 40px;
   font-size: 15px;
   font-weight: 500;
@@ -165,8 +163,8 @@ a[name*=Section_11]+.einspaltig+.dreispaltigG+.dreispaltigG+.dreispaltigG a{
 a[name*=Section_11]+.einspaltig+.dreispaltigG,
 a[name*=Section_11]+.einspaltig+.dreispaltigG+.dreispaltigG,
 a[name*=Section_11]+.einspaltig+.dreispaltigG+.dreispaltigG+.dreispaltigG,
-a[name*=Section_16]+.einspaltig+.zweispaltigG div div,
-a[name*=Section_16]+.einspaltig+.zweispaltigG+.zweispaltigG div div {
+a[name*=Section_17]+.einspaltig+.zweispaltigG div div,
+a[name*=Section_17]+.einspaltig+.zweispaltigG+.zweispaltigG div div {
   height: 65px;
   text-align: center;
   vertical-align: center;
@@ -248,33 +246,33 @@ a[name*=Section_15]+.einspaltig +.zweispaltigG +.zweispaltig{
 }
 
 /* Padding above the e-chain and dry-tech labels */
-a[name*=Section_16]+.einspaltig+.zweispaltigG div div h2,
-a[name*=Section_16]+.einspaltig+.zweispaltigG+.zweispaltigG div div h2 {
+a[name*=Section_17]+.einspaltig+.zweispaltigG div div h2,
+a[name*=Section_17]+.einspaltig+.zweispaltigG+.zweispaltigG div div h2 {
   padding-top: 10px;
 }
 
 /* Background color for e-chain and dry-tech tabels */
-a[name*=Section_16]+.einspaltig+.zweispaltigG div div,
-a[name*=Section_16]+.einspaltig+.zweispaltigG+.zweispaltigG div div {
+a[name*=Section_17]+.einspaltig+.zweispaltigG div div,
+a[name*=Section_17]+.einspaltig+.zweispaltigG+.zweispaltigG div div {
   background-color: #5e5e5e;
 }
 
 /* Text styling for e-chain and dry-tech labels */
-a[name*=Section_16]+.einspaltig+.zweispaltigG div div h2,
-a[name*=Section_16]+.einspaltig+.zweispaltigG+.zweispaltigG div div h2 {
+a[name*=Section_17]+.einspaltig+.zweispaltigG div div h2,
+a[name*=Section_17]+.einspaltig+.zweispaltigG+.zweispaltigG div div h2 {
   color: white;
   font-size: 20px !important;
   font-weight: 100;
 }
 
 /* Spacing in between e-chain and dry-tech labels and the divs below */
-a[name*=Section_16]+.einspaltig+.zweispaltigG+.zweispaltigG+.ContentBreak+.NonSpaceingBreak td {
+a[name*=Section_17]+.einspaltig+.zweispaltigG+.zweispaltigG+.ContentBreak+.NonSpaceingBreak td {
   padding: 10px !important;
 }
 
 /* Styling, padding, and positioning for e-chain and dry-tech divs */
-a[name*=Section_17]+.einspaltig+.zweispaltigG,
-a[name*=Section_17]+.einspaltig+.zweispaltigG+.zweispaltigG {
+a[name*=Section_18]+.einspaltig+.zweispaltigG,
+a[name*=Section_18]+.einspaltig+.zweispaltigG+.zweispaltigG {
   background-color: #f1f1f1;
   padding-top: 20px;
   padding-bottom: 90px;
@@ -282,20 +280,20 @@ a[name*=Section_17]+.einspaltig+.zweispaltigG+.zweispaltigG {
 }
 
 /* Horizontal positioning and color for e-chain and dry-tech CTA buttons */
-a[name*="Section_17"]+.einspaltig+.zweispaltigG div .text_ohne_bild .link a,
-a[name*="Section_17"]+.einspaltig+.zweispaltigG+.zweispaltigG div .text_ohne_bild .link a {
+a[name*="Section_18"]+.einspaltig+.zweispaltigG div .text_ohne_bild .link a,
+a[name*="Section_18"]+.einspaltig+.zweispaltigG+.zweispaltigG div .text_ohne_bild .link a {
   left: 200px;
   background-color: #f18f3b;
 }
 
 /* Styling for e-chain and dry-tech CTA buttons on hover */
-a[name*="Section_17"]+.einspaltig+.zweispaltigG div .text_ohne_bild .link a:hover,
-a[name*="Section_17"]+.einspaltig+.zweispaltigG+.zweispaltigG div .text_ohne_bild .link a:hover {
+a[name*="Section_18"]+.einspaltig+.zweispaltigG div .text_ohne_bild .link a:hover,
+a[name*="Section_18"]+.einspaltig+.zweispaltigG+.zweispaltigG div .text_ohne_bild .link a:hover {
   background-color: #f58220
 }
 
 /* Padding and styling for "Join the team!" headline */
-a[name*=Section_18]+.einspaltig div .text_ohne_bild h2{
+a[name*=Section_19]+.einspaltig div .text_ohne_bild h2{
   padding-left: 200px;
   padding-right: 200px;
   font-size: 30px;
