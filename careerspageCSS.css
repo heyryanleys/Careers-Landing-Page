@@ -19,51 +19,51 @@ br {
 }
 
 /* Padding of banner image */
-a[name*=Section_2]+.einspaltig +.NonSpaceingBreak td{
+span[id*=section_2]+.einspaltig +.NonSpaceingBreak td{
   padding: 0px;
 }
 
 /* Headline text styling */
-a[name*=Section_4]+.einspaltig div h1 {
+span[id*=section_4]+.einspaltig div h1 {
   padding-bottom: 25px;
 }
 
 /* Padding the the headline. text beneath the headline, and the text beneath "Join the team!" to be skinny and in the center */
-a[name*=Section_4]+.einspaltig div h1,
-a[name*=Section_5]+.einspaltig div .text_ohne_bild p,
-a[name*=Section_19]+.einspaltig div .text_ohne_bild p {
+span[id*=section_4]+.einspaltig div h1,
+span[id*=section_5]+.einspaltig div .text_ohne_bild p,
+span[id*=section_19]+.einspaltig div .text_ohne_bild p {
   padding-left: 200px;
   padding-right: 200px;
 }
 
 /* Changing top margin of the text under the headline*/
-a[name*=Section_5]+.einspaltig div .text_ohne_bild p {
+span[id*=section_5]+.einspaltig div .text_ohne_bild p {
   margin-top: -20px !important;
 }
 
 /* Changing the font styling for the text beneath the headline, and the text beneath "Join the team!" */
-a[name*=Section_5]+.einspaltig div .text_ohne_bild p,
-a[name*=Section_19]+.einspaltig div .text_ohne_bild p {
+span[id*=section_5]+.einspaltig div .text_ohne_bild p,
+span[id*=section_19]+.einspaltig div .text_ohne_bild p {
   font-size: 15px;
   font-weight: 100;
   line-height: 20px;
 }
 
 /* Changing left positioning of "See open positions" button and making button color orange */
-a[name*=Section_5]+.einspaltig div .link a {
+span[id*=section_5]+.einspaltig div .link a {
   left: 500px;
   background-color: #F07D00;
 }
 
 /* Changing the hover color of the "See open positions" button */
-a[name*=Section_5]+.einspaltig div .link a:hover {
+span[id*=section_5]+.einspaltig div .link a:hover {
   background-color: #d26e00;
 }
 
 /* CTA Button Text Styling for "See Open Positions", "Learn about ECS", and "Learn about dry-tech" */
-a[name*=Section_5]+.einspaltig div .link a,
-a[name*="Section_18"]+.einspaltig+.zweispaltigG div .text_ohne_bild .link a,
-a[name*="Section_18"]+.einspaltig+.zweispaltigG+.zweispaltigG div .text_ohne_bild .link a{
+span[id*=section_5]+.einspaltig div .link a,
+span[id*=section_18]+.einspaltig+.zweispaltigG div .text_ohne_bild .link a,
+span[id*=section_18]+.einspaltig+.zweispaltigG+.zweispaltigG div .text_ohne_bild .link a{
   height: 40px;
   font-size: 15px;
   font-weight: 500;
@@ -77,7 +77,7 @@ a[name*="Section_18"]+.einspaltig+.zweispaltigG+.zweispaltigG div .text_ohne_bil
 }
 
 /* Main Video Styling */
-a[name*="Section_6"]+.einspaltig div .text_ohne_bild p {
+span[id*=section_6]+.einspaltig div .text_ohne_bild p {
   width: 750px;
   position: relative;
   left: 200px;
@@ -85,46 +85,46 @@ a[name*="Section_6"]+.einspaltig div .text_ohne_bild p {
 }
 
 /* Adding margin beneath video for proper spacing of thumbnails */
-a[name*=Section_6]+.einspaltig div .text_ohne_bild {
+span[id*=section_6]+.einspaltig div .text_ohne_bild {
   margin-bottom: -1200px;
 }
 
 /* Placement of first video thumbnail */
-a[name*=Section_7]+.einspaltig+.dreispaltig div .text_ohne_bild p{
+span[id*=section_7]+.einspaltig+.dreispaltig div .text_ohne_bild p{
     margin-left: 260px !important;
 }
 
 /* Placement of second video thumbnail */
-a[name*=Section_7]+.einspaltig+.dreispaltig+.dreispaltig div .text_ohne_bild p{
+span[id*=section_7]+.einspaltig+.dreispaltig+.dreispaltig div .text_ohne_bild p{
   margin-left:100px !important
 }
 
 /* Placement of third video thumbnail */
-a[name*=Section_7]+.einspaltig+.dreispaltig+.dreispaltig+.dreispaltig div .text_ohne_bild p{
+span[id*=section_7]+.einspaltig+.dreispaltig+.dreispaltig+.dreispaltig div .text_ohne_bild p{
   margin-left: -60px !important;
 }
 
 /* Horizontal placement of Nicole's quote */
-a[name*=Section_9]+.einspaltig+.zweispaltigG+.zweispaltigG div .text_ohne_bild p {
+span[id*=section_9]+.einspaltig+.zweispaltigG+.zweispaltigG div .text_ohne_bild p {
   right: 250px;
 }
 
 /* Spacing Nicole's quote lower from the timeline */
-a[name*=Section_9]+.einspaltig+.zweispaltigG,
-a[name*=Section_9]+.einspaltig+.zweispaltigG+.zweispaltigG{
+span[id*=section_9]+.einspaltig+.zweispaltigG,
+span[id*=section_9]+.einspaltig+.zweispaltigG+.zweispaltigG{
   margin-top:100px;
 }
 
 /* Circle Headshot Styling for Nicole and Steve */
-a[name*=Section_9]+.einspaltig+.zweispaltigG div img,
-a[name*=Section_10]+.einspaltig+.zweispaltigG+.zweispaltigG div img {
+span[id*=section_9]+.einspaltig+.zweispaltigG div img,
+span[id*=section_10]+.einspaltig+.zweispaltigG+.zweispaltigG div img {
   max-width: 55%;
   position: relative;
 }
 
 /* Quote text box styling for Nicole and Steve */
-a[name*=Section_9]+.einspaltig+.zweispaltigG+.zweispaltigG div .text_ohne_bild p,
-a[name*=Section_10]+.einspaltig+.zweispaltigG div .text_ohne_bild p {
+span[id*=section_9]+.einspaltig+.zweispaltigG+.zweispaltigG div .text_ohne_bild p,
+span[id*=section_10]+.einspaltig+.zweispaltigG div .text_ohne_bild p {
   font-size: 20px;
   min-width: 800px;
   position: relative;
@@ -138,53 +138,53 @@ a[name*=Section_10]+.einspaltig+.zweispaltigG div .text_ohne_bild p {
 }
 
 /* Horizontal spacing for Steve's quote */
-a[name*=Section_10]+.einspaltig+.zweispaltigG+.zweispaltigG div img {
+span[id*=section_10]+.einspaltig+.zweispaltigG+.zweispaltigG div img {
   right: -260px;
 }
 
 /* Company Culture, Trainings, and Company History Labels Styling */
-a[name*=Section_11]+.einspaltig+.dreispaltigG,
-a[name*=Section_11]+.einspaltig+.dreispaltigG+.dreispaltigG,
-a[name*=Section_11]+.einspaltig+.dreispaltigG+.dreispaltigG+.dreispaltigG {
+span[id*=section_11]+.einspaltig+.dreispaltigG,
+span[id*=section_11]+.einspaltig+.dreispaltigG+.dreispaltigG,
+span[id*=section_11]+.einspaltig+.dreispaltigG+.dreispaltigG+.dreispaltigG {
   padding-top: 20px;
   font-size: 20px;
   background-color: #f58220;
 }
 
 /* TCompany Culture, Trainings, and Company History Text Styling */
-a[name*=Section_11]+.einspaltig+.dreispaltigG a,
-a[name*=Section_11]+.einspaltig+.dreispaltigG+.dreispaltigG a,
-a[name*=Section_11]+.einspaltig+.dreispaltigG+.dreispaltigG+.dreispaltigG a{
+span[id*=section_11]+.einspaltig+.dreispaltigG a,
+span[id*=section_11]+.einspaltig+.dreispaltigG+.dreispaltigG a,
+span[id*=section_11]+.einspaltig+.dreispaltigG+.dreispaltigG+.dreispaltigG a{
   color: white;
   font-size: 20px
 }
 
 /* Sizing and text placement of Company Culture, Trainings, and Company History labels, along with the e-chain and dry-tech labels */
-a[name*=Section_11]+.einspaltig+.dreispaltigG,
-a[name*=Section_11]+.einspaltig+.dreispaltigG+.dreispaltigG,
-a[name*=Section_11]+.einspaltig+.dreispaltigG+.dreispaltigG+.dreispaltigG,
-a[name*=Section_17]+.einspaltig+.zweispaltigG div div,
-a[name*=Section_17]+.einspaltig+.zweispaltigG+.zweispaltigG div div {
+span[id*=section_11]+.einspaltig+.dreispaltigG,
+span[id*=section_11]+.einspaltig+.dreispaltigG+.dreispaltigG,
+span[id*=section_11]+.einspaltig+.dreispaltigG+.dreispaltigG+.dreispaltigG,
+span[id*=section_17]+.einspaltig+.zweispaltigG div div,
+span[id*=section_17]+.einspaltig+.zweispaltigG+.zweispaltigG div div {
   height: 65px;
   text-align: center;
   vertical-align: center;
 }
 
 /* Spacing below the Company Culture, Trainings, and Company History labels */
-a[name*=Section_11]+.einspaltig+.dreispaltigG+.dreispaltigG+.dreispaltigG+.ContentBreak+.NonSpaceingBreak td {
+span[id*=section_11]+.einspaltig+.dreispaltigG+.dreispaltigG+.dreispaltigG+.ContentBreak+.NonSpaceingBreak td {
   padding: 5px !important;
 }
 
 /* Padding under the Company Culture, Trainings, and Company History divs */
-a[name*=Section_13]+.einspaltig+.zweispaltigG+.zweispaltig+.NonSpaceingBreak td,
-a[name*=Section_14]+.einspaltig+.zweispaltigG+.zweispaltig+.NonSpaceingBreak td {
+span[id*=section_13]+.einspaltig+.zweispaltigG+.zweispaltig+.NonSpaceingBreak td,
+span[id*=section_14]+.einspaltig+.zweispaltigG+.zweispaltig+.NonSpaceingBreak td {
   padding: 0px !important;
 }
 
 /* Styling of Company Culture, Trainings, and Company History image divs */
-a[name*=Section_13]+.einspaltig +.zweispaltigG,
-a[name*=Section_14]+.einspaltig +.zweispaltigG,
-a[name*=Section_15]+.einspaltig +.zweispaltigG {
+span[id*=section_13]+.einspaltig +.zweispaltigG,
+span[id*=section_14]+.einspaltig +.zweispaltigG,
+span[id*=section_15]+.einspaltig +.zweispaltigG {
   background-color: #f1f1f1;
   margin-right: 0px;
   margin-left: 15px;
@@ -193,9 +193,9 @@ a[name*=Section_15]+.einspaltig +.zweispaltigG {
 }
 
 /* Styling of Company Culture, Trainings, and Company History text divs */
-a[name*=Section_13]+.einspaltig +.zweispaltigG +.zweispaltig,
-a[name*=Section_14]+.einspaltig +.zweispaltigG +.zweispaltig,
-a[name*=Section_15]+.einspaltig +.zweispaltigG +.zweispaltig{
+span[id*=section_13]+.einspaltig +.zweispaltigG +.zweispaltig,
+span[id*=section_14]+.einspaltig +.zweispaltigG +.zweispaltig,
+span[id*=section_15]+.einspaltig +.zweispaltigG +.zweispaltig{
   background-color: #f1f1f1;
   margin-left: 0px;
   height: 350px;
@@ -203,16 +203,16 @@ a[name*=Section_15]+.einspaltig +.zweispaltigG +.zweispaltig{
 }
 
 /* Sizing of the Company Culture, Trainings, and Company History images */
-a[name*=Section_13]+.einspaltig+.zweispaltigG div img,
-a[name*=Section_14]+.einspaltig+.zweispaltigG div img,
-a[name*=Section_15]+.einspaltig+.zweispaltigG div img{
+span[id*=section_13]+.einspaltig+.zweispaltigG div img,
+span[id*=section_14]+.einspaltig+.zweispaltigG div img,
+span[id*=section_15]+.einspaltig+.zweispaltigG div img{
   height: 350px;
 }
 
 /* Text styling and margins of the Company Culture, Trainings, and Company History headers */
-a[name*=Section_13]+.einspaltig +.zweispaltigG +.zweispaltig div .text_ohne_bild h2,
-a[name*=Section_14]+.einspaltig +.zweispaltigG +.zweispaltig div .text_ohne_bild h2,
-a[name*=Section_15]+.einspaltig +.zweispaltigG +.zweispaltig div .text_ohne_bild h2{
+span[id*=section_13]+.einspaltig +.zweispaltigG +.zweispaltig div .text_ohne_bild h2,
+span[id*=section_14]+.einspaltig +.zweispaltigG +.zweispaltig div .text_ohne_bild h2,
+span[id*=section_15]+.einspaltig +.zweispaltigG +.zweispaltig div .text_ohne_bild h2{
   font-weight: bold;
   font-size: 50px;
   color: #f58220;
@@ -220,59 +220,59 @@ a[name*=Section_15]+.einspaltig +.zweispaltigG +.zweispaltig div .text_ohne_bild
 }
 
 /* Positioning of the Company Culture, Trainings, and Company History text */
-a[name*=Section_13]+.einspaltig +.zweispaltigG +.zweispaltig div .text_ohne_bild,
-a[name*=Section_14]+.einspaltig +.zweispaltigG +.zweispaltig div .text_ohne_bild,
-a[name*=Section_15]+.einspaltig +.zweispaltigG +.zweispaltig div .text_ohne_bild{
+span[id*=section_13]+.einspaltig +.zweispaltigG +.zweispaltig div .text_ohne_bild,
+span[id*=section_14]+.einspaltig +.zweispaltigG +.zweispaltig div .text_ohne_bild,
+span[id*=section_15]+.einspaltig +.zweispaltigG +.zweispaltig div .text_ohne_bild{
   left: -55px !important;
   top: 25px;
   width: 700px !important;
 }
 
 /* Text styling and top margin of the Company Culture, Trainings, and Company History main text */
-a[name*=Section_13]+.einspaltig +.zweispaltigG +.zweispaltig div .text_ohne_bild p,
-a[name*=Section_14]+.einspaltig +.zweispaltigG +.zweispaltig div .text_ohne_bild p,
-a[name*=Section_15]+.einspaltig +.zweispaltigG +.zweispaltig div .text_ohne_bild p{
+span[id*=section_13]+.einspaltig +.zweispaltigG +.zweispaltig div .text_ohne_bild p,
+span[id*=section_14]+.einspaltig +.zweispaltigG +.zweispaltig div .text_ohne_bild p,
+span[id*=section_15]+.einspaltig +.zweispaltigG +.zweispaltig div .text_ohne_bild p{
   color: #343434;
   margin-top: 30px !important;
   max-width: 700px;
 }
 
 /* Hides Trainings and Company History to start */
-a[name*=Section_14]+.einspaltig+.zweispaltigG,
-a[name*=Section_14]+.einspaltig +.zweispaltigG +.zweispaltig,
-a[name*=Section_15]+.einspaltig+.zweispaltigG,
-a[name*=Section_15]+.einspaltig +.zweispaltigG +.zweispaltig{
+span[id*=section_14]+.einspaltig+.zweispaltigG,
+span[id*=section_14]+.einspaltig +.zweispaltigG +.zweispaltig,
+span[id*=section_15]+.einspaltig+.zweispaltigG,
+span[id*=section_15]+.einspaltig +.zweispaltigG +.zweispaltig{
   display: none !important;
 }
 
 /* Padding above the e-chain and dry-tech labels */
-a[name*=Section_17]+.einspaltig+.zweispaltigG div div h2,
-a[name*=Section_17]+.einspaltig+.zweispaltigG+.zweispaltigG div div h2 {
+span[id*=section_17]+.einspaltig+.zweispaltigG div div h2,
+span[id*=section_17]+.einspaltig+.zweispaltigG+.zweispaltigG div div h2 {
   padding-top: 10px;
 }
 
 /* Background color for e-chain and dry-tech tabels */
-a[name*=Section_17]+.einspaltig+.zweispaltigG div div,
-a[name*=Section_17]+.einspaltig+.zweispaltigG+.zweispaltigG div div {
+span[id*=section_17]+.einspaltig+.zweispaltigG div div,
+span[id*=section_17]+.einspaltig+.zweispaltigG+.zweispaltigG div div {
   background-color: #5e5e5e;
 }
 
 /* Text styling for e-chain and dry-tech labels */
-a[name*=Section_17]+.einspaltig+.zweispaltigG div div h2,
-a[name*=Section_17]+.einspaltig+.zweispaltigG+.zweispaltigG div div h2 {
+span[id*=section_17]+.einspaltig+.zweispaltigG div div h2,
+span[id*=section_17]+.einspaltig+.zweispaltigG+.zweispaltigG div div h2 {
   color: white;
   font-size: 20px !important;
   font-weight: 100;
 }
 
 /* Spacing in between e-chain and dry-tech labels and the divs below */
-a[name*=Section_17]+.einspaltig+.zweispaltigG+.zweispaltigG+.ContentBreak+.NonSpaceingBreak td {
+span[id*=section_17]+.einspaltig+.zweispaltigG+.zweispaltigG+.ContentBreak+.NonSpaceingBreak td {
   padding: 10px !important;
 }
 
 /* Styling, padding, and positioning for e-chain and dry-tech divs */
-a[name*=Section_18]+.einspaltig+.zweispaltigG,
-a[name*=Section_18]+.einspaltig+.zweispaltigG+.zweispaltigG {
+span[id*=section_18]+.einspaltig+.zweispaltigG,
+span[id*=section_18]+.einspaltig+.zweispaltigG+.zweispaltigG {
   background-color: #f1f1f1;
   padding-top: 20px;
   padding-bottom: 90px;
@@ -280,20 +280,20 @@ a[name*=Section_18]+.einspaltig+.zweispaltigG+.zweispaltigG {
 }
 
 /* Horizontal positioning and color for e-chain and dry-tech CTA buttons */
-a[name*="Section_18"]+.einspaltig+.zweispaltigG div .text_ohne_bild .link a,
-a[name*="Section_18"]+.einspaltig+.zweispaltigG+.zweispaltigG div .text_ohne_bild .link a {
+span[id*=section_18]+.einspaltig+.zweispaltigG div .text_ohne_bild .link a,
+span[id*=section_18]+.einspaltig+.zweispaltigG+.zweispaltigG div .text_ohne_bild .link a {
   left: 200px;
   background-color: #f18f3b;
 }
 
 /* Styling for e-chain and dry-tech CTA buttons on hover */
-a[name*="Section_18"]+.einspaltig+.zweispaltigG div .text_ohne_bild .link a:hover,
-a[name*="Section_18"]+.einspaltig+.zweispaltigG+.zweispaltigG div .text_ohne_bild .link a:hover {
+span[id*=section_18]+.einspaltig+.zweispaltigG div .text_ohne_bild .link a:hover,
+span[id*=section_18]+.einspaltig+.zweispaltigG+.zweispaltigG div .text_ohne_bild .link a:hover {
   background-color: #f58220
 }
 
 /* Padding and styling for "Join the team!" headline */
-a[name*=Section_19]+.einspaltig div .text_ohne_bild h2{
+span[id*=section_19]+.einspaltig div .text_ohne_bild h2{
   padding-left: 200px;
   padding-right: 200px;
   font-size: 30px;
@@ -639,5 +639,302 @@ a[name*=Section_19]+.einspaltig div .text_ohne_bild h2{
 /* Centers message after form is submitted */
 .submitted-message{
   text-align: center;
+}
+
+/* Needs to be refactored */
+span[id*=section_16]+.einspaltig {
+  height: 500px;
+}
+
+span[id*=section_16]+.einspaltig div {
+  position: absolute;
+}
+
+.main{
+  position: absolute;
+  max-width: 1000px;
+  height: 600px;
+  background-color: white;
+  margin-left:7%;
+}
+
+.whitebottombar{
+  position: absolute;
+  top: 80%;
+  max-width: 100%;
+  height: 10%;
+  background-color: white;
+}
+
+.whitesidebar{
+  position: absolute;
+  max-width: 15%;
+  margin-left: -10% !important;
+  height: 100%;
+  background-color: white;
+}
+
+.frame{
+  position: absolute;
+  border: 0px solid white;
+  margin-left: 5% !important;
+  bottom: 10%;
+  max-width: 90%;
+  height: 80%;
+}
+
+.rightbar,
+.leftbar{
+  position: absolute;
+  max-width: 5%;
+  height: 90%;
+  background-color: grey;
+}
+
+.leftbar{
+  margin-left: 5% !important;
+}
+
+.rightbar{
+  margin-left: 90% !important;
+}
+
+.topbar{
+  position: absolute;
+  max-width: 100%;
+  height: 5%;
+  background-color: grey;
+}
+
+.leftlowerrightbrace,
+.leftlowerleftbrace,
+.rightlowerleftbrace,
+.rightlowerrightbrace{
+  position: absolute;
+  max-width: 8%;
+  height: 3%;
+  background-color: #5e5e5e;
+  top: 80%;
+}
+
+.rightlowerleftbrace,
+.leftlowerleftbrace{
+  -ms-transform: rotate(-60deg); /* IE 9 */
+  -webkit-transform: rotate(-60deg); /* Chrome, Safari, Opera */
+  transform: rotate(-60deg);
+}
+
+.rightlowerrightbrace,
+.leftlowerrightbrace{
+  -ms-transform: rotate(60deg); /* IE 9 */
+  -webkit-transform: rotate(60deg); /* Chrome, Safari, Opera */
+  transform: rotate(60deg);
+}
+
+.leftlowerrightbrace{
+  margin-left: 7% !important;
+}
+
+.rightlowerleftbrace{
+  margin-left: 85% !important;
+}
+
+.rightlowerrightbrace{
+  margin-left: 92% !important;
+}
+
+.righttopbrace,
+.lefttopbrace{
+  position: absolute;
+  top: 5%;
+  max-width: 9%;
+  height: 8%;
+  background-color: #5e5e5e;
+
+}
+
+.lefttopbrace{
+  margin-left: 5.5% !important;
+  -ms-transform: rotate(-50deg); /* IE 9 */
+  -webkit-transform: rotate(-50deg); /* Chrome, Safari, Opera */
+  transform: rotate(-50deg);
+}
+
+.righttopbrace{
+  margin-left:86% !important;
+  -ms-transform: rotate(50deg); /* IE 9 */
+  -webkit-transform: rotate(50deg); /* Chrome, Safari, Opera */
+  transform: rotate(50deg);
+}
+
+.chain{
+  position: absolute;
+  max-width: 100%;
+  height: 1%;
+  top: 2%;
+  background-color: #f4ac70;
+}
+
+.article1,
+.article2,
+.article3{
+  position: absolute;
+  max-width: 20%;
+  height: 50%;
+  background-color: #E3E3E3;
+}
+
+.article1.flyin:hover,
+.article2.flyin:hover,
+.article3.flyin:hover{
+  outline: 2px solid #f58220;
+  top: 25%;
+  padding: 0px;
+  cursor: hand;
+}
+
+
+.article1.flyin{
+  margin-left: 15% !important;
+  transform: rotate(0deg);
+}
+
+.article1{
+  top: 20%;
+  margin-left: -70% !important;
+  -ms-transform: rotate(0deg); /* IE 9 */
+  -ms-transform-origin: 50% 50%; /* IE 9 */
+  -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
+  -webkit-transform-origin: 50% 50%; /* Chrome, Safari Opera */
+  transform: rotate(20deg);
+  transform-origin: 50% 50%;
+  transition: margin 2s ease-out, transform 2s ease-out, top .5s;
+}
+
+.article2.flyin{
+  margin-left: 40% !important;
+  transform: rotate(0deg);
+}
+
+.article2{
+  margin-left: -45% !important;
+  top: 20%;
+  -ms-transform: rotate(0deg); /* IE 9 */
+  -ms-transform-origin: 50% 50%; /* IE 9 */
+  -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
+  -webkit-transform-origin: 50% 50%; /* Chrome, Safari Opera */
+  transform: rotate(20deg);
+  transform-origin: 50% 50%;
+  transition: margin 2s ease-out, transform 2s ease-out, -webkit-transform 2s ease-out, -ms-transform 2s ease-out, top .5s;
+}
+
+.article3.flyin{
+  margin-left: 65% !important;
+  transform: rotate(0deg);
+}
+
+.article3{
+  margin-left: -20% !important;
+  top: 20%;
+  -ms-transform: rotate(0deg); /* IE 9 */
+  -ms-transform-origin: 50% 50%; /* IE 9 */
+  -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
+  -webkit-transform-origin: 50% 50%; /* Chrome, Safari Opera */
+  transform: rotate(20deg);
+  transform-origin: 50% 50%;
+  transition: margin 2s ease-out, transform 2s ease-out, top .5s;
+}
+
+.article3cable.flyin{
+  position: absolute;
+  margin-left: 75% !important;
+}
+
+.article3cable{
+  position: absolute;
+  top: 2%;
+  margin-left: -7% !important;
+  max-width: 1%;
+  height: 40%;
+  background-color: black;
+  transition: all 2s ease-out
+}
+
+.article2cable.flyin{
+  position: absolute;
+  margin-left: 50% !important;
+}
+
+.article2cable{
+  position: absolute;
+  top: 2%;
+  margin-left: -32% !important;
+  max-width: 1%;
+  height: 40%;
+  background-color: black;
+  transition: all 2s ease-out
+}
+
+.article1cable.flyin{
+  position: absolute;
+  margin-left: 25% !important;
+}
+
+.article1cable{
+  position: absolute;
+  top: 2%;
+  margin-left: -57% !important;
+  max-width: 1%;
+  height: 40%;
+  background-color: black;
+  transition: all 2s ease-out
+}
+
+.brace{
+  position: absolute;
+  max-width: 40%;
+  height: 5%;
+  background-color: black;
+  margin-left: 30% !important;
+}
+
+.holder{
+  position: absolute;
+  max-width: 200%;
+  min-width: 200%;
+  height: 8%;
+  top: -2%;
+  margin-left: -50% !important;
+  background-color: #232323;
+  border-radius: 25%;
+}
+
+.articleimage{
+  position: absolute;
+  background-color: #5e5e5e;
+  max-width: 85%;
+  margin-left: 7.5% !important;
+  height: 40%;
+  top: 10%;
+}
+
+.articletext{
+  position: absolute;
+  max-width: 85%;
+  margin-left: 7.5% !important;
+  height: 40%;
+  top: 52%;
+  font-weight: 600;
+}
+
+.articletext a{
+  color: #f58220;
+}
+
+.sectionheadline{
+  margin-left:39%;
+  font-size: 30px;
+  font-weight: 600;
+  top: 4%;
 }
 </style>
