@@ -1,0 +1,47 @@
+#RightContainer, #BreadcrumbContainer, #SoNeContainer {
+  display: none !important
+}
+
+/* Expands left content to entire container */
+#container #ContentContainer #LeftContent {
+  width: 100%;
+}
+
+/* Eliminating ContentBreak */
+.ContentBreak {
+  height: 0px;
+}
+
+/* Changing height of line break */
+br {
+  line-height: 2.4em;
+}
+
+/* Changing width of images next to job postings and aligning them with header */
+span[id*=section_3] + .einspaltig + .zweispaltigG div img,
+span[id*=section_4] + .einspaltig + .zweispaltigG + .zweispaltigG div img{
+  max-width: 50%;
+  margin-top: 2% !important;
+}
+
+/* Moving the image in for dry-tech sales to the correct location */
+span[id*=section_3] + .einspaltig + .zweispaltigG div img{
+  margin-left: 20% !important;
+}
+
+span[id*=section_3] + .einspaltig + .zweispaltigG + .zweispaltigG {
+  margin-left: -13%;
+}
+
+/* Changing the width of the job postings */
+span[id*=section_4] + .einspaltig + .zweispaltigG + .zweispaltigG div img {
+  position: relative;
+  margin-left: 140% !important;
+}
+
+/* Moving the text of e-chain sales to the correct location */
+span[id*=section_4] + .einspaltig + .zweispaltigG{
+  margin-left: 16%;
+  position: absolute;
+  text-align: right;
+}
