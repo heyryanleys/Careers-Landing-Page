@@ -5,41 +5,41 @@
   position: absolute;
   overflow: hidden;
 }
-
-.progrssbaroverlay,
-.progressbar{
-  width: 600px;
-  height: 8px;
-  top: 30px;
-  border-radius: 50px;
+.progrssbaroverlaytop,
+.progrssbaroverlaybottom,
+.progressbaroutline,
+.progressbarfill{
   position: absolute;
   margin-left: 50px;
 }
 
-.progrssbaroverlay{
-  background-color: white;
-  -webkit-animation-name: loading; /* Safari 4.0 - 8.0 */
-  -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
-  animation-name: loading;
-  animation-duration: 4s;
-  animation-timing-function: ease-out;
-  animation-fill-mode: forwards;
+.progrssbaroverlaytop{
+  background-color: green;
   z-index: 2;
-  top: 31px;
+  top: 0px;
+  height: 30px;
+  width: 614px;
 }
 
-.progressbar{
- background: linear-gradient(to right, #f58220, #ffd2ab);
- border: 1px solid #f58220;
+.progrssbaroverlaybottom{
+  background-color: green;
+  z-index: 2;
+  top: 40px;
+  height: 30px;
+  width: 614px;
 }
 
-@-webkit-keyframes loading{
-  0% {
-    left: 0px;
-  }
-  100% {
-    left: 400px;
-  }
+.progressbaroutline{
+  width: 600px;
+  top: 30px;
+  height: 8px;
+  border-radius: 50px;
+  background: #fff
+  border: 1px solid #f58220;
+}
+
+.progressbarfill{
+  background-color: #f58220;
 }
 
 .circle1,
@@ -49,11 +49,12 @@
   width: 25px;
   height: 25px;
   border-radius: 50%;
-  background-color: #f58220;
+  background-color: transparent;
   position: absolute;
   top: -11px;
   z-index: 3;
   border: 3px solid #ffd2ab;
+  margin-left: 3px;
 }
 
 .circle1{
