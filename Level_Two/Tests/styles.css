@@ -22,6 +22,8 @@
   -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
   animation-name: loading;
   animation-duration: 4s;
+  animation-timing-function: ease-out;
+  animation-fill-mode: forwards;
   z-index: 2;
   top: 31px;
 }
@@ -49,8 +51,9 @@
   border-radius: 50%;
   background-color: #f58220;
   position: absolute;
-  top: -8px;
+  top: -11px;
   z-index: 3;
+  border: 3px solid #ffd2ab;
 }
 
 .circle1{
@@ -67,4 +70,5 @@
 
 .circle4{
   left: 97%;
+  background-color: #fff
 }
