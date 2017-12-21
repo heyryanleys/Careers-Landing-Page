@@ -1,74 +1,74 @@
-.container{
-  width: 700px;
-  height: 80px;
-  background-color: #fff;
-  position: absolute;
-  overflow: hidden;
+.ryancontainer{
+  width: 700px !important;
+  height: 80px !important;
+  background-color: #fff !important;
+  position: absolute !important;
+  overflow: hidden !important;
 }
 
-.progrssbaroverlay,
-.progressbar{
-  width: 600px;
-  height: 8px;
-  top: 30px;
-  border-radius: 50px;
-  position: absolute;
-  margin-left: 50px;
+.ryanprogrssbaroverlay,
+.ryanprogressbar{
+  width: 600px !important;
+  height: 8px !important;
+  top: 30px !important;
+  border-radius: 50px !important;
+  position: absolute !important;
+  margin-left: 50px !important;
 }
 
-.progrssbaroverlay{
-  background-color: white;
-  -webkit-animation-name: loading; /* Safari 4.0 - 8.0 */
-  -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
-  animation-name: loading;
-  animation-duration: 4s;
-  animation-timing-function: ease-out;
-  animation-fill-mode: forwards;
-  z-index: 2;
-  top: 31px;
+.ryanprogrssbaroverlay{
+  background-color: white !important;
+  -webkit-animation-name: loading !important; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 4s !important; /* Safari 4.0 - 8.0 */
+  animation-name: loading !important;
+  animation-duration: 4s !important;
+  animation-timing-function: ease-out !important;
+  animation-fill-mode: forwards !important;
+  z-index: 2 !important;
+  top: 31px !important;
 }
 
-.progressbar{
- background: linear-gradient(to right, #f58220, #ffd2ab);
- border: 1px solid #f58220;
+.ryanprogressbar{
+ background: linear-gradient(to right, #f58220, #ffd2ab) !important;
+ border: 1px solid #f58220 !important;
 }
 
 @-webkit-keyframes loading{
   0% {
-    left: 0px;
+    left: 0px !important;
   }
   100% {
-    left: 400px;
+    left: 400px !important;
   }
 }
 
-.circle1,
-.circle2,
-.circle3,
-.circle4{
-  width: 25px;
-  height: 25px;
-  border-radius: 50%;
-  background-color: #f58220;
-  position: absolute;
-  top: -11px;
-  z-index: 3;
-  border: 3px solid #ffd2ab;
+.ryancircle1,
+.ryancircle2,
+.ryancircle3,
+.ryancircle4{
+  width: 25px !important;
+  height: 25px !important;
+  border-radius: 50% !important;
+  background-color: #f58220 !important;
+  position: absolute !important;
+  top: -11px !important;
+  z-index: 3 !important;
+  border: 3px solid #ffd2ab !important;
 }
 
-.circle1{
-  left: -1%;
+.ryancircle1{
+  left: -1% !important;
 }
 
-.circle2{
-  left: 31%;
+.ryancircle2{
+  left: 31% !important;
 }
 
-.circle3{
-  left: 65%;
+.ryancircle3{
+  left: 65% !important;
 }
 
-.circle4{
-  left: 97%;
+.ryancircle4{
+  left: 97% !important;
   background-color: #fff
 }
