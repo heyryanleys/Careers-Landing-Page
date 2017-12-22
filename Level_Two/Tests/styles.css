@@ -19,7 +19,7 @@
   z-index: 3;
 }
 
-.ryanprogrssbarfill,
+#rhb,
 .ryanprogressbar{
   width: 600px !important;
   max-width: 600px !important;
@@ -31,14 +31,14 @@
   border: 1px solid #f58220;
 }
 
-.ryanprogrssbarfill{
-  margin-left: -560px !important;
+#rhb{
+  margin-left: -560px;
   background: linear-gradient(to right, #f58220, #ffd2ab);
   z-index: 2;
   transition: all 2s ease-out;
 }
 
-.ryanprogrssbarfill.flyin{
+.ryanprogrssbarfillfilled{
   margin-left: -150px !important;
 }
 
