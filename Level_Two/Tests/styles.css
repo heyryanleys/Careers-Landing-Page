@@ -1,7 +1,4 @@
-span[id*=section_6] einspaltig div{
-
-}
-
+<style>
 .ryancontainer{
   width: 700px !important;
   max-width: 700px !important;
@@ -82,3 +79,4 @@ span[id*=section_6] einspaltig div{
   margin-left: 97% !important;
   background-color: #fff
 }
+</style>
