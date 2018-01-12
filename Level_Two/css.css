@@ -18,59 +18,92 @@ br {
   line-height: 2.4em;
 }
 
-span[id*=section_5] + .einspaltig + .ZweidrittelRight,
-span[id*=section_5] + .einspaltig + .ZweidrittelRight + .zweidrittel,
-span[id*=section_6] + .einspaltig + .zweidrittel,
-span[id*=section_7] + .einspaltig + .ZweidrittelRight,
-span[id*=section_7] + .einspaltig + .ZweidrittelRight + .zweidrittel {
+/* Headline text styling */
+span[id*=section_3]+.einspaltig div h1 {
+  padding-bottom: 25px;
+}
+
+/* Padding the the headline. text beneath the headline, and the text beneath "Join the team!" to be skinny and in the center */
+span[id*=section_3]+.einspaltig div h1,
+span[id*=section_4]+.einspaltig div .text_ohne_bild p {
+  padding-left: 200px;
+  padding-right: 200px;
+}
+
+/* Changing top margin of the text under the headline*/
+span[id*=section_4]+.einspaltig div .text_ohne_bild p {
+  margin-top: -20px !important;
+}
+
+/* Changing the font styling for the text beneath the headline, and the text beneath "Join the team!" */
+span[id*=section_4]+.einspaltig div .text_ohne_bild p{
+  font-size: 15px;
+  font-weight: 100;
+  line-height: 20px;
+}
+
+span[id*=section_6] + .einspaltig + .ZweidrittelRight + .zweidrittel div:first-child + div + div{
+  padding-top: 10px;
+}
+
+span[id*=section_6] + .einspaltig + .ZweidrittelRight + .zweidrittel div:first-child + div + div + div + div + div + div + div + div{
+  margin-left: 50%;
+  margin-top: -19%;
+}
+
+span[id*=section_6] + .einspaltig + .ZweidrittelRight,
+span[id*=section_6] + .einspaltig + .ZweidrittelRight + .zweidrittel,
+span[id*=section_7] + .einspaltig + .zweidrittel,
+span[id*=section_8] + .einspaltig + .ZweidrittelRight,
+span[id*=section_8] + .einspaltig + .ZweidrittelRight + .zweidrittel {
   background-color: #F5EEE4;
   height: 258px;
 }
 
-span[id*=section_6] + .einspaltig + .zweidrittel + .ZweidrittelRight{
+span[id*=section_7] + .einspaltig + .zweidrittel + .ZweidrittelRight{
   background-color: #fff;
 }
 
-span[id*=section_5] + .einspaltig + .ZweidrittelRight,
-span[id*=section_6] + .einspaltig + .zweidrittel,
-span[id*=section_7] + .einspaltig + .ZweidrittelRight{
+span[id*=section_6] + .einspaltig + .ZweidrittelRight,
+span[id*=section_7] + .einspaltig + .zweidrittel,
+span[id*=section_8] + .einspaltig + .ZweidrittelRight{
   margin-left: 5%;
 }
 
-span[id*=section_5] + .einspaltig + .ZweidrittelRight  .dreispaltigG,
-span[id*=section_6] + .einspaltig + .zweidrittel + .ZweidrittelRight .dreispaltigG,
-span[id*=section_7] + .einspaltig + .ZweidrittelRight  .dreispaltigG{
+span[id*=section_6] + .einspaltig + .ZweidrittelRight  .dreispaltigG,
+span[id*=section_7] + .einspaltig + .zweidrittel + .ZweidrittelRight .dreispaltigG,
+span[id*=section_8] + .einspaltig + .ZweidrittelRight  .dreispaltigG{
   margin-left: -8px !important;
 }
 
-span[id*=section_5] + .einspaltig + .ZweidrittelRight + .zweidrittel,
-span[id*=section_6] + .einspaltig + .zweidrittel,
-span[id*=section_7] + .einspaltig + .ZweidrittelRight + .zweidrittel {
+span[id*=section_6] + .einspaltig + .ZweidrittelRight + .zweidrittel,
+span[id*=section_7] + .einspaltig + .zweidrittel,
+span[id*=section_8] + .einspaltig + .ZweidrittelRight + .zweidrittel {
   width: 65% !important;
 }
 
-span[id*=section_5] + .einspaltig + .ZweidrittelRight + .zweidrittel,
-span[id*=section_7] + .einspaltig + .ZweidrittelRight + .zweidrittel{
+span[id*=section_6] + .einspaltig + .ZweidrittelRight + .zweidrittel,
+span[id*=section_8] + .einspaltig + .ZweidrittelRight + .zweidrittel{
   margin-left: -8% !important;
 }
 
-span[id*=section_6] + .einspaltig + .zweidrittel + .ZweidrittelRight{
+span[id*=section_7] + .einspaltig + .zweidrittel + .ZweidrittelRight{
   position: absolute !important;
   margin-left: 71% !important
 }
 
-span[id*=section_6] + .einspaltig + .zweidrittel{
+span[id*=section_7] + .einspaltig + .zweidrittel{
   margin-right: 8% !important;
   width: calc(66.66%) !important;
 }
 
-span[id*=section_5] + .einspaltig + .ZweidrittelRight + .zweidrittel h2,
-span[id*=section_6] + .einspaltig + .zweidrittel h2,
-span[id*=section_7] + .einspaltig + .ZweidrittelRight + .zweidrittel h2 {
+span[id*=section_6] + .einspaltig + .ZweidrittelRight + .zweidrittel h2,
+span[id*=section_7] + .einspaltig + .zweidrittel h2,
+span[id*=section_8] + .einspaltig + .ZweidrittelRight + .zweidrittel h2 {
   padding-top: 1.5% !important;
 }
 
-span[id*=section_6] + .einspaltig + .zweidrittel div{
+span[id*=section_7] + .einspaltig + .zweidrittel div{
   padding-left: 7px !important;
 }
 
