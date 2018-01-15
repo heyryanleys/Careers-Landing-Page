@@ -42,13 +42,44 @@ span[id*=section_4]+.einspaltig div .text_ohne_bild p{
   line-height: 20px;
 }
 
-span[id*=section_6] + .einspaltig + .ZweidrittelRight + .zweidrittel div:first-child + div + div{
+span[id*="section_6"] + .einspaltig + .ZweidrittelRight + .zweidrittel div .link,
+span[id*="section_7"] + .einspaltig + .zweidrittel div .link,
+span[id*="section_8"] + .einspaltig + .ZweidrittelRight + .zweidrittel div .link{
+  width: 48% !important;
+  max-width: 48% !important;
+}
+
+span[id*=section_6] + .einspaltig + .ZweidrittelRight + .zweidrittel div:first-child + div + div,
+span[id*=section_7] + .einspaltig + .zweidrittel div:first-child + div + div,
+span[id*=section_8] + .einspaltig + .ZweidrittelRight + .zweidrittel div:first-child + div + div{
   padding-top: 10px;
 }
 
-span[id*=section_6] + .einspaltig + .ZweidrittelRight + .zweidrittel div:first-child + div + div + div + div + div + div + div + div{
+span[id*=section_6] + .einspaltig + .ZweidrittelRight + .zweidrittel div:first-child + div + div + div + div + div + div + div + div,
+span[id*=section_7] + .einspaltig + .zweidrittel div:first-child + div + div + div + div + div + div + div + div,
+span[id*=section_8] + .einspaltig + .ZweidrittelRight + .zweidrittel div:first-child + div + div + div + div + div + div + div + div{
+  margin-top: -130px;
+}
+
+span[id*=section_6] + .einspaltig + .ZweidrittelRight + .zweidrittel div:first-child + div + div + div + div + div + div + div + div,
+span[id*=section_6] + .einspaltig + .ZweidrittelRight + .zweidrittel div:first-child + div + div + div + div + div + div + div + div + div,
+span[id*=section_6] + .einspaltig + .ZweidrittelRight + .zweidrittel div:first-child + div + div + div + div + div + div + div + div + div + div,
+span[id*=section_6] + .einspaltig + .ZweidrittelRight + .zweidrittel div:first-child + div + div + div + div + div + div + div + div + div + div + div,
+span[id*=section_6] + .einspaltig + .ZweidrittelRight + .zweidrittel div:first-child + div + div + div + div + div + div + div + div + div + div + div + div,
+span[id*=section_6] + .einspaltig + .ZweidrittelRight + .zweidrittel div:first-child + div + div + div + div + div + div + div + div + div + div + div + div + div,
+span[id*=section_7] + .einspaltig + .zweidrittel div:first-child + div + div + div + div + div + div + div + div,
+span[id*=section_7] + .einspaltig + .zweidrittel div:first-child + div + div + div + div + div + div + div + div + div,
+span[id*=section_7] + .einspaltig + .zweidrittel div:first-child + div + div + div + div + div + div + div + div + div + div,
+span[id*=section_7] + .einspaltig + .zweidrittel div:first-child + div + div + div + div + div + div + div + div + div + div + div,
+span[id*=section_7] + .einspaltig + .zweidrittel div:first-child + div + div + div + div + div + div + div + div + div + div + div + div,
+span[id*=section_7] + .einspaltig + .zweidrittel div:first-child + div + div + div + div + div + div + div + div + div + div + div + div + div,
+span[id*=section_8] + .einspaltig + .ZweidrittelRight + .zweidrittel div:first-child + div + div + div + div + div + div + div + div,
+span[id*=section_8] + .einspaltig + .ZweidrittelRight + .zweidrittel div:first-child + div + div + div + div + div + div + div + div + div,
+span[id*=section_8] + .einspaltig + .ZweidrittelRight + .zweidrittel div:first-child + div + div + div + div + div + div + div + div + div + div,
+span[id*=section_8] + .einspaltig + .ZweidrittelRight + .zweidrittel div:first-child + div + div + div + div + div + div + div + div + div + div + div,
+span[id*=section_8] + .einspaltig + .ZweidrittelRight + .zweidrittel div:first-child + div + div + div + div + div + div + div + div + div + div + div + div,
+span[id*=section_8] + .einspaltig + .ZweidrittelRight + .zweidrittel div:first-child + div + div + div + div + div + div + div + div + div + div + div + div + div{
   margin-left: 50%;
-  margin-top: -19%;
 }
 
 span[id*=section_6] + .einspaltig + .ZweidrittelRight,
