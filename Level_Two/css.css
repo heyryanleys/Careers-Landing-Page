@@ -20,7 +20,8 @@ br {
 
 /* Headline text styling */
 span[id*=section_3]+.einspaltig div h1 {
-  padding-bottom: 25px;
+  font-size: 58px;
+  padding-bottom: 4%;
 }
 
 /* Padding the the headline. text beneath the headline, and the text beneath "Join the team!" to be skinny and in the center */
@@ -31,6 +32,14 @@ span[id*=section_4]+.einspaltig div .text_ohne_bild p {
 }
 
 /* Changing top margin of the text under the headline*/
+span[id*=section_4]+.einspaltig div .text_ohne_bild {
+  margin-bottom: -4%;
+}
+
+span[id*=section_5]+.einspaltig div .text_ohne_bild {
+  margin-bottom: -2%;
+}
+
 span[id*=section_4]+.einspaltig div .text_ohne_bild p {
   margin-top: -20px !important;
 }
@@ -84,11 +93,16 @@ span[id*=section_8] + .einspaltig + .ZweidrittelRight + .zweidrittel div:first-c
 
 span[id*=section_6] + .einspaltig + .ZweidrittelRight,
 span[id*=section_6] + .einspaltig + .ZweidrittelRight + .zweidrittel,
+span[id*=section_7] + .einspaltig + .zweidrittel + .ZweidrittelRight .dreispaltigG,
 span[id*=section_7] + .einspaltig + .zweidrittel,
 span[id*=section_8] + .einspaltig + .ZweidrittelRight,
 span[id*=section_8] + .einspaltig + .ZweidrittelRight + .zweidrittel {
-  background-color: #F5EEE4;
+  background-color: #f1f1f1;
   height: 258px;
+  border-radius: 5px;
+}
+span[id*=section_7] + .einspaltig + .zweidrittel + .ZweidrittelRight .dreispaltigG{
+  width: 70% !important;
 }
 
 span[id*=section_7] + .einspaltig + .zweidrittel + .ZweidrittelRight{
