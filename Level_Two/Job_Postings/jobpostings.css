@@ -36,7 +36,7 @@ span[id*=section_3]+.einspaltig div .text_ohne_bild p{
   line-height: 20px;
 }
 
-span[id*=section_7]+.einspaltig div .text_ohne_bild a{
+span[id*=section_8]+.einspaltig div .text_ohne_bild a{
   background-color: #f58220;
   color: white !important;
   padding: 10px 30px 10px 20px;
@@ -45,8 +45,33 @@ span[id*=section_7]+.einspaltig div .text_ohne_bild a{
   font-size: 20px;
 }
 
-span[id*=section_7]+.einspaltig div .text_ohne_bild a::before{
+span[id*=section_8]+.einspaltig div .text_ohne_bild a::before{
   display:none;
+}
+
+span[id*="section_4"] + .einspaltig + .dreispaltigG div img,
+span[id*="section_4"] + .einspaltig + .dreispaltigG + .dreispaltigG div img,
+span[id*="section_4"] + .einspaltig + .dreispaltigG + .dreispaltigG + .dreispaltigG div img{
+  position: absolute;
+}
+
+span[id*="section_4"] + .einspaltig + .dreispaltigG div img{
+  left: 56%;
+  top: -9px;
+  width: 27% !important;
+}
+
+span[id*="section_4"] + .einspaltig + .dreispaltigG + .dreispaltigG div img{
+  left: 81%;
+  top: 0px;
+  width: 17% !important;
+}
+
+span[id*="section_4"] + .einspaltig + .dreispaltigG + .dreispaltigG + .dreispaltigG div img{
+  left: 77%;
+  top: 180px;
+  width: 15% !important;
+
 }
 
 </style>
