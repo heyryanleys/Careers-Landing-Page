@@ -1,0 +1,129 @@
+<style>
+#RightContainer, #BreadcrumbContainer, #SoNeContainer {
+  display: none !important
+}
+
+/* Expands left content to entire container */
+#container #ContentContainer #LeftContent {
+  width: 100%;
+}
+
+/* Eliminating ContentBreak */
+.ContentBreak {
+  height: 0px;
+}
+
+/* Changing height of line break */
+br {
+  line-height: 2.4em;
+}
+
+/* Headline text styling */
+span[id*=section_3]+.einspaltig div h1 {
+  font-size: 58px;
+  padding-bottom: 4%;
+}
+
+/* Changing top margin of the text under the headline*/
+span[id*=section_4]+.einspaltig div .text_ohne_bild {
+  margin-bottom: -4%;
+}
+
+span[id*=section_5]+.einspaltig div .text_ohne_bild {
+  margin-bottom: -2%;
+}
+
+span[id*=section_4]+.einspaltig div .text_ohne_bild p {
+  margin-top: -20px !important;
+}
+
+/* Changing the font styling for the text beneath the headline, and the text beneath "Join the team!" */
+span[id*=section_4]+.einspaltig div .text_ohne_bild p{
+  font-size: 15px;
+  font-weight: 100;
+  line-height: 20px;
+}
+
+.progressbarcontainer {
+  width: 700px !important;
+  max-width: 700px !important;
+  height: 80px !important;
+  max-height: 80px !important;
+  background-color: #fff !important;
+  overflow: hidden !important;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.hidingbar {
+  width: 60px !important;
+  height: 20px !important;
+  max-width: 60px !important;
+  max-height: 20px !important;
+  position: absolute;
+  background: white;
+  left: 0px !important;
+  top: 25px !important;
+  z-index: 3;
+}
+
+#progressbar, .progressbar_empty {
+  width: 600px !important;
+  max-width: 600px !important;
+  height: 8px !important;
+  max-height: 8px !important;
+  top: 30px !important;
+  border-radius: 50px !important;
+  position: absolute !important;
+  border: 1px solid #f58220;
+}
+
+#progressbar {
+  margin-left: -560px;
+  background: linear-gradient(to right, #f58220, #ffd2ab);
+  z-index: 2;
+  transition: all 2s ease-out;
+}
+
+.filled {
+  margin-left: -150px !important;
+}
+
+.progressbar_empty {
+  margin-left: 50px !important;
+  background: white;
+}
+
+.circle {
+  width: 25px !important;
+  max-width: 25px !important;
+  height: 25px !important;
+  max-height: 25px !important;
+  border-radius: 50% !important;
+  position: absolute !important;
+  top: -11px !important;
+  z-index: 3 !important;
+  border: 3px solid #ffd2ab !important;
+}
+
+#first, #second, #third {
+  background-color: #f58220 !important;
+}
+
+#first {
+  margin-left: -1% !important;
+}
+
+#second {
+  margin-left: 31% !important;
+}
+
+#third {
+  margin-left: 65% !important;
+}
+
+#fourth {
+  margin-left: 97% !important;
+  background-color: white;
+}
+</style>
