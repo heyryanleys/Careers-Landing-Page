@@ -19,24 +19,29 @@ br {
 }
 
 /* Headline text styling */
-span[id*=section_3]+.einspaltig div h2 {
+span[id*=section_2]+.einspaltig div h2 {
   font-size: 58px !important;
   padding-bottom: 1%;
 }
 
 /* Subheadding text styling */
-span[id*=section_3]+.einspaltig div b {
+span[id*=section_2]+.einspaltig div b {
   font-style: italic;
 }
 
 /* Changing the font styling for the text beneath the headline, and the text beneath "Join the team!" */
-span[id*=section_3]+.einspaltig div .text_ohne_bild p{
+span[id*=section_2]+.einspaltig div .text_ohne_bild p{
   font-size: 15px;
   font-weight: 100;
   line-height: 20px;
+  max-width: 60%;
 }
 
-span[id*=section_8]+.einspaltig div .text_ohne_bild a{
+span[id*=section_2] + .einspaltig div .text_ohne_bild{
+  margin-bottom: -50px !important;
+}
+
+span[id*=section_7]+.einspaltig div .text_ohne_bild a{
   background-color: #f58220;
   color: white !important;
   padding: 10px 30px 10px 20px;
@@ -45,33 +50,39 @@ span[id*=section_8]+.einspaltig div .text_ohne_bild a{
   font-size: 20px;
 }
 
-span[id*=section_8]+.einspaltig div .text_ohne_bild a::before{
+span[id*=section_7]+.einspaltig div .text_ohne_bild a::before{
   display:none;
 }
 
-span[id*="section_4"] + .einspaltig + .dreispaltigG div img,
-span[id*="section_4"] + .einspaltig + .dreispaltigG + .dreispaltigG div img,
-span[id*="section_4"] + .einspaltig + .dreispaltigG + .dreispaltigG + .dreispaltigG div img{
+span[id*=section_3] + .einspaltig + .zweidrittel{
+  margin-bottom: -100%;
+}
+
+span[id*=section_3] + .einspaltig + .zweidrittel div:first-child > .imagebox > img,
+span[id*=section_3] + .einspaltig + .zweidrittel div:nth-child(3) > .imagebox > img,
+span[id*=section_3] + .einspaltig + .zweidrittel div:nth-child(5) > .imagebox > img{
   position: absolute;
 }
 
-span[id*="section_4"] + .einspaltig + .dreispaltigG div img{
-  left: 56%;
-  top: -9px;
-  width: 27% !important;
+span[id*=section_3] + .einspaltig + .zweidrittel div:first-child > .imagebox > img{
+  left: 125% !important;
+  top: -120px !important;
+  width: 25% !important;
 }
 
-span[id*="section_4"] + .einspaltig + .dreispaltigG + .dreispaltigG div img{
-  left: 81%;
-  top: 0px;
-  width: 17% !important;
+span[id*=section_3] + .einspaltig + .zweidrittel div:nth-child(3) > .imagebox > img{
+  left: 92% !important;
+  top: -130px !important;
+  width: 40% !important;
 }
 
-span[id*="section_4"] + .einspaltig + .dreispaltigG + .dreispaltigG + .dreispaltigG div img{
-  left: 77%;
-  top: 180px;
-  width: 15% !important;
-
+span[id*=section_3] + .einspaltig + .zweidrittel div:nth-child(5) > .imagebox > img{
+  left: 126% !important;
+  top: -40px !important;
+  width: 23% !important;
 }
 
+span[id*=section_4] + .einspaltig div .text_ohne_bild{
+  padding-right: 43% !important;
+}
 </style>
