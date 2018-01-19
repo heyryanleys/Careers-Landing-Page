@@ -1,0 +1,87 @@
+<style>
+#RightContainer, #BreadcrumbContainer, #SoNeContainer {
+  display: none !important
+}
+
+/* Expands left content to entire container */
+#container #ContentContainer #LeftContent {
+  width: 100%;
+}
+
+/* Eliminating ContentBreak */
+.ContentBreak {
+  height: 0px;
+}
+
+/* Changing height of line break */
+br {
+  line-height: 2.4em;
+}
+
+/* Headline text styling */
+span[id*=section_2]+.einspaltig div h2 {
+  font-size: 58px !important;
+  padding-bottom: 1%;
+}
+
+/* Subheadding text styling */
+span[id*=section_2]+.einspaltig div b {
+  font-style: italic;
+}
+
+/* Changing the font styling for the text beneath the headline, and the text beneath "Join the team!" */
+span[id*=section_2]+.einspaltig div .text_ohne_bild p{
+  font-size: 15px;
+  font-weight: 100;
+  line-height: 20px;
+  max-width: 60%;
+}
+
+span[id*=section_2] + .einspaltig div .text_ohne_bild{
+  margin-bottom: -50px !important;
+}
+
+span[id*=section_7]+.einspaltig div .text_ohne_bild a{
+  background-color: #f58220;
+  color: white !important;
+  padding: 10px 30px 10px 20px;
+  text-align: center;
+  margin-left: 40%;
+  font-size: 20px;
+}
+
+span[id*=section_7]+.einspaltig div .text_ohne_bild a::before{
+  display:none;
+}
+
+span[id*=section_3] + .einspaltig + .zweidrittel{
+  margin-bottom: -100%;
+}
+
+span[id*=section_3] + .einspaltig + .zweidrittel div:first-child > .imagebox > img,
+span[id*=section_3] + .einspaltig + .zweidrittel div:nth-child(3) > .imagebox > img,
+span[id*=section_3] + .einspaltig + .zweidrittel div:nth-child(5) > .imagebox > img{
+  position: absolute;
+}
+
+span[id*=section_3] + .einspaltig + .zweidrittel div:first-child > .imagebox > img{
+  left: 125% !important;
+  top: -70px !important;
+  width: 25% !important;
+}
+
+span[id*=section_3] + .einspaltig + .zweidrittel div:nth-child(3) > .imagebox > img{
+  left: 92% !important;
+  top: -90px !important;
+  width: 40% !important;
+}
+
+span[id*=section_3] + .einspaltig + .zweidrittel div:nth-child(5) > .imagebox > img{
+  left: 125% !important;
+  width: 23% !important;
+}
+
+span[id*=section_4] + .einspaltig div .text_ohne_bild{
+  padding-right: 43% !important;
+}
+</style>

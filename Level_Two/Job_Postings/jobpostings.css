@@ -29,7 +29,6 @@ span[id*=section_2]+.einspaltig div b {
   font-style: italic;
 }
 
-/* Changing the font styling for the text beneath the headline, and the text beneath "Join the team!" */
 span[id*=section_2]+.einspaltig div .text_ohne_bild p{
   font-size: 15px;
   font-weight: 100;
@@ -37,11 +36,23 @@ span[id*=section_2]+.einspaltig div .text_ohne_bild p{
   max-width: 60%;
 }
 
-span[id*=section_2] + .einspaltig div .text_ohne_bild{
-  margin-bottom: -50px !important;
+/* Changing the font styling for the text beneath the headline, and the text beneath "Join the team!" */
+span[id*=section_2]+.einspaltig + .ContentBreak +  .zweispaltig {
+  width: 650px !important;
+  margin-top: 10px;
 }
 
-span[id*=section_7]+.einspaltig div .text_ohne_bild a{
+span[id*=section_2]+.einspaltig + .ContentBreak + .zweispaltig + .zweispaltigG {
+  margin-top: -115px;
+  position: absolute;
+  margin-left: 678px;
+}
+
+span[id*=section_3]+.einspaltig{
+  margin-top:-50px
+}
+
+span[id*=section_5]+.einspaltig div .text_ohne_bild a{
   background-color: #f58220;
   color: white !important;
   padding: 10px 30px 10px 20px;
@@ -50,39 +61,8 @@ span[id*=section_7]+.einspaltig div .text_ohne_bild a{
   font-size: 20px;
 }
 
-span[id*=section_7]+.einspaltig div .text_ohne_bild a::before{
+span[id*=section_5]+.einspaltig div .text_ohne_bild a::before{
   display:none;
 }
 
-span[id*=section_3] + .einspaltig + .zweidrittel{
-  margin-bottom: -100%;
-}
-
-span[id*=section_3] + .einspaltig + .zweidrittel div:first-child > .imagebox > img,
-span[id*=section_3] + .einspaltig + .zweidrittel div:nth-child(3) > .imagebox > img,
-span[id*=section_3] + .einspaltig + .zweidrittel div:nth-child(5) > .imagebox > img{
-  position: absolute;
-}
-
-span[id*=section_3] + .einspaltig + .zweidrittel div:first-child > .imagebox > img{
-  left: 125% !important;
-  top: -120px !important;
-  width: 25% !important;
-}
-
-span[id*=section_3] + .einspaltig + .zweidrittel div:nth-child(3) > .imagebox > img{
-  left: 92% !important;
-  top: -130px !important;
-  width: 40% !important;
-}
-
-span[id*=section_3] + .einspaltig + .zweidrittel div:nth-child(5) > .imagebox > img{
-  left: 126% !important;
-  top: -40px !important;
-  width: 23% !important;
-}
-
-span[id*=section_4] + .einspaltig div .text_ohne_bild{
-  padding-right: 43% !important;
-}
 </style>
