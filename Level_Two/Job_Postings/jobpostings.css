@@ -52,17 +52,13 @@ span[id*=section_3]+.einspaltig{
   margin-top:-50px
 }
 
-span[id*=section_5]+.einspaltig div .text_ohne_bild a{
+span[id*=section_4]+.einspaltig div .text_ohne_bild a{
   background-color: #f58220;
   color: white !important;
   padding: 10px 30px 10px 20px;
   text-align: center;
   margin-left: 40%;
   font-size: 20px;
-}
-
-span[id*=section_5]+.einspaltig div .text_ohne_bild a::before{
-  display:none;
 }
 
 </style>
