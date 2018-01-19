@@ -19,9 +19,11 @@ br {
 }
 
 /* Headline text styling */
-span[id*=section_2]+.einspaltig div h2 {
+span[id*=section_3]+.einspaltig div h2 {
   font-size: 58px !important;
   padding-bottom: 1%;
+  line-height: 1;
+  margin-top: -35px;
 }
 
 /* Padding Top of Form */
@@ -109,6 +111,10 @@ span[id*=section_2]+.einspaltig div h2 {
 .form-columns-2 .input .inputs-list .hs-form-booleancheckbox-display .hs-input + span{
   position: absolute;
   margin-top: 3px;
+}
+
+#myTextFieldId{
+  display: inline;
 }
 
 </style>

@@ -1,5 +1,6 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script>
+$(document).ready(function() {
 function getUrlParams() {
 
   var paramMap = {};
@@ -15,5 +16,8 @@ function getUrlParams() {
   return paramMap;
 }
 var params = getUrlParams();
-document.getElementById('myTextFieldId').innerHTML = params.C;
+var noSpace = params.position.split('_').join(' ');
+var job = noSpace.replace(/\b\w/g, l => l.toUpperCase());
+document.getElementById('myTextFieldId').innerHTML = job;
+});
 </script>
