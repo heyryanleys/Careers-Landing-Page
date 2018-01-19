@@ -1,0 +1,114 @@
+<style>
+#RightContainer, #BreadcrumbContainer, #SoNeContainer {
+  display: none !important
+}
+
+/* Expands left content to entire container */
+#container #ContentContainer #LeftContent {
+  width: 100%;
+}
+
+/* Eliminating ContentBreak */
+.ContentBreak {
+  height: 0px;
+}
+
+/* Changing height of line break */
+br {
+  line-height: 2.4em;
+}
+
+/* Headline text styling */
+span[id*=section_2]+.einspaltig div h2 {
+  font-size: 58px !important;
+  padding-bottom: 1%;
+}
+
+/* Padding Top of Form */
+.hbspt-form form {
+  padding-top: 15px !important;
+}
+
+/* Form Button Styling */
+.hs-button.primary.large {
+  position: relative;
+  left: 890px;
+  top: 15px;
+  width: 200px;
+  height: 40px;
+  background: #f07d00;
+  border: 0px transparent;
+  color: #fff;
+}
+
+.hs-button.primary.large:hover {
+  background-color: #d26e00;
+}
+
+/* Moves error message on form to be within div */
+.hs-error-msgs{
+  margin-left: 20px;
+}
+
+/* Sizing of Form Fields */
+.form-columns-2 .hs-input {
+  height: 30px;
+  line-height: 50px;
+  width: 540px;
+  padding-left: 15px;
+  border: 1px solid #ABABAB;
+}
+
+/* Spacing of Form Fields (Height) */
+.form-columns-2, .form-intro {
+  margin-bottom: 30px !important;
+}
+
+/* Spacing of Form Fields (Width) */
+.form-columns-2 {
+  max-width: 100% !important;
+}
+
+.form-columns-2 div {
+  width: 50% !important;
+}
+
+/* Form Subheading Styling */
+.form-columns-2 .hs-richtext {
+  width: 100% !important;
+  margin-bottom: 30px;
+}
+
+/* Large Textarea Styling */
+.form-columns-1 {
+  max-width: 100% !important;
+}
+
+.form-columns-1 .hs-input {
+  max-width: 1090px;
+  min-width: 1090px;
+}
+
+.form-columns-2 .inputs-list .hs-input {
+  margin-right: 5px;
+}
+
+.form-columns-2 .inputs-list {
+  list-style-type: none !important;
+}
+
+/* Centers message after form is submitted */
+.submitted-message{
+  text-align: center;
+}
+
+.form-columns-2 .input .inputs-list .hs-form-booleancheckbox-display .hs-input{
+  width: 50px !important;
+}
+
+.form-columns-2 .input .inputs-list .hs-form-booleancheckbox-display .hs-input + span{
+  position: absolute;
+  margin-top: 3px;
+}
+
+</style>
