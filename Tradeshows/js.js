@@ -4,7 +4,7 @@
 </script>
 <script>
 $(document).ready(function(){
-    $("span[id*=section_2]+.einspaltigG div img").attr("src", "https://s14.postimg.org/3k919u1vl/bannerfortradeshowpage.png");
+    $("span[id*=section_4]+.einspaltigG div img").attr("src", "https://s14.postimg.org/3k919u1vl/bannerfortradeshowpage.png");
   }
  )
 
