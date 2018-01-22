@@ -1,25 +1,19 @@
 <style>
-#RightContainer,
-span[id*=section_13] + .einspaltig + .ContentBreak + .dreispaltig + .dreispaltig .link a:before,
-#LeftContent .LinkList .link a:before,
-span[id*=section_9] + .einspaltigG a:before,
-  span[id*=section_11] + .einspaltigG a:before,
-span[id*=section_13] + .einspaltig + .ContentBreak,
-a[name=Section_1] + .einspaltig + .NonSpaceingBreak,
- a[name=Section_11] + .einspaltigG + .NonSpaceingBreak,
- a[name=Section_11] + .einspaltigG div div .picturetext,
-span[id*=section_2] + .einspaltigG + .NonSpaceingBreak,
-span[id*=section_3] + .einspaltig +.einspaltigG + .ContentBreak,
-span[id*=section_3] + .einspaltig +.einspaltigG + .ContentBreak + .NonSpaceingBreak,
-.hs-richtext	{
-display: none !important;
-}
+  #RightContainer,
+  #LeftContent .LinkList .link a:before,
+  a[name=Section_1] + .einspaltig + .NonSpaceingBreak,
+  span[id*=section_2] + .einspaltigG + .NonSpaceingBreak,
+  span[id*=section_3] + .einspaltig +.einspaltigG + .ContentBreak,
+  span[id*=section_3] + .einspaltig +.einspaltigG + .ContentBreak + .NonSpaceingBreak,
+  .hs-richtext	{
+  display: none !important;
+  }
 
  .zweidrittel img {
    width: auto !important;
  }
 
- #LeftContent .LinkList .link a, span[id*=section_9]+.einspaltigG a, span[id*=section_11]+.einspaltigG a {
+ #LeftContent .LinkList .link a{
    border: 2px solid #fff;
    height: 40px;
    line-height: 40px;
@@ -28,15 +22,6 @@ display: none !important;
    color: #f58220 !important;
    padding: 0 15px;
    background-color: #ffffff
- }
-
- span[id*=section_9]+.einspaltigG a, span[id*=section_11]+.einspaltigG a {
-   background: #f07d00;
-   border: none !important;
- }
-
- span[id*=section_4]+.einspaltig+.ContentBreak {
-   height: 10px !important;
  }
 
  #LeftContent .list p {
@@ -61,7 +46,7 @@ display: none !important;
    color: #f07d00 !important;
  }
 
- #LeftContent .LinkList .link a:hover, span[id*=section_9]+.einspaltigG a:hover, span[id*=section_11]+.einspaltigG a:hover {
+ #LeftContent .LinkList .link a:hover {
    text-decoration: none !important;
  }
 
@@ -82,10 +67,6 @@ display: none !important;
 
  #LeftContent {
    width: 100% !important;
- }
-
- span[id*=section_4]+.einspaltig+.zweispaltigG .text_ohne_bild h2 {
-   margin: 0 0 15px 0;
  }
 
  span[id*=section_2]+.einspaltigG .text h2 {
@@ -113,184 +94,5 @@ display: none !important;
 
  span[id*=section_2]+.einspaltigG .text h2 {
    top: 50px;
- }
-
- span[id*=section_13]+.einspaltig {
-   margin: 0;
- }
-
- span[id*=section_13]+.einspaltig+.ContentBreak+.dreispaltig {
-   width: 140px !important;
-   padding: 0px 16px;
-   background: #ececec;
-   margin-right: 0;
- }
-
- span[id*=section_13]+.einspaltig+.ContentBreak+.dreispaltig+.dreispaltig {
-   width: calc(100% - 156px) !important;
-   padding: 0px 16px;
-   background: #ececec;
-   margin: 0;
-   height: 147px;
- }
-
- span[id*=section_13]+.einspaltig+.ContentBreak+.dreispaltig+.dreispaltig .link {
-   margin-top: 32px;
- }
-
- span[id*=section_13]+.einspaltig+.ContentBreak+.dreispaltig+.dreispaltig .link a {
-   height: 40px;
-   font-size: 15px;
-   font-weight: 500;
-   padding: 10px 15px;
-   background-position: 10px;
-   background-size: 30px;
-   background-color: #F07D00;
-   color: #fff;
-   text-decoration: none;
- }
-
- span[id*=section_13]+.einspaltig+.ContentBreak+.dreispaltig+.dreispaltig .link a:hover {
-   background-color: #D26E00;
-   text-decoration: none !important;
- }
-
- span[id*=section_13]+.einspaltig+.ContentBreak+.dreispaltig+.dreispaltig .text_ohne_bild p {
-   font-weight: bold;
- }
-
- span[id*=section_13]+.einspaltig h2 {
-   background: #f07d00;
-   margin: 0;
-   padding: 8px 16px;
-   color: #fff;
-   font-weight: 400;
- }
-
- span[id*=section_13]+.einspaltig b {
-   margin: 0;
-   padding: 16px;
-   color: #000;
-   font-size: 22px;
-   background: #ececec;
- }
-
- span[id*=section_9]+.einspaltigG h2 {
-   position: absolute;
-   z-index: 999;
-   right: 30px;
-   width: 540px;
-   top: 50px;
- }
-
- span[id*=section_11]+.einspaltigG h2 {
-   position: absolute;
-   z-index: 999;
-   right: 30px;
-   width: 730px;
-   top: 50px;
- }
-
- span[id*=section_9]+.einspaltigG p {
-   position: absolute;
-   z-index: 999;
-   right: 30px;
-   width: 540px;
-   top: -217px;
- }
-
- span[id*=section_11]+.einspaltigG p {
-   position: absolute;
-   z-index: 999;
-   right: 30px;
-   width: 730px;
-   top: -200px;
- }
-
- span[id*=section_9]+.einspaltigG a, span[id*=section_11]+.einspaltigG a {
-   position: absolute;
-   z-index: 999;
-   right: 300px;
-   width: 270px;
-   top: -135px;
- }
-
- .zweispaltigGVideo .video-js {
-   height: 312px !important;
- }
-
- .form-columns-3 div {
-   width: 33.33% !important;
- }
-
- .form-columns-3 {
-   max-width: 100% !important;
- }
-
- span[id*=section_10]+.einspaltig .text_ohne_bild {
-   background: #ececec;
-   padding: 30px;
- }
-
- span[id*=section_10]+.einspaltig .text_ohne_bild ul {
-   list-style-type: none;
-   padding: 0px;
-   margin: 0px;
- }
-
- .hbspt-form form {
-   padding-top: 0 !important;
- }
-
- .form-columns-3 .hs-input {
-   height: 50px;
-   line-height: 50px;
-   width: 330px;
-   padding-left: 15px;
-   border: 1px solid #ABABAB;
- }
-
- .form-columns-3 .hs-richtext {
-   width: 100% !important;
-   margin-bottom: 30px;
- }
-
- .form-columns-3, .form-intro {
-   margin-bottom: 30px !important;
- }
-
- .form-columns-1 {
-   max-width: 100% !important;
- }
-
- .form-columns-1 .hs-richtext {
-   margin-bottom: 15px;
- }
-
- .form-intro {
-   display: block;
- }
-
- #LeftContent span[id*=section_10]+.einspaltig .text_ohne_bild .hs_recaptcha {
-   margin-top: 30px;
- }
-
- #LeftContent span[id*=section_10]+.einspaltig .text_ohne_bild .hs_recaptcha iframe {
-   width: 304px !important;
- }
-
- .hs-button.primary.large {
-   position: absolute;
-   right: 36px;
-   top: -43px;
-   width: 200px;
-   height: 40px;
-   background: #f07d00;
-   border: 0px transparent;
-   color: #fff;
- }
-
- .hs-button.primary.large:hover, span[id*=section_9]+.einspaltigG a:hover {
-   background-color: #d26e00;
  }
 </style>
