@@ -1,10 +1,10 @@
 <style>
   #RightContainer,
   #LeftContent .LinkList .link a:before,
-  a[name=section_3] + .einspaltig + .NonSpaceingBreak,
-  span[id*=section_4] + .einspaltigG + .NonSpaceingBreak,
-  span[id*=section_5] + .einspaltig +.einspaltigG + .ContentBreak,
-  span[id*=section_5] + .einspaltig +.einspaltigG + .ContentBreak + .NonSpaceingBreak,
+  a[name=section_2] + .einspaltig + .NonSpaceingBreak,
+  span[id*=section_3] + .einspaltigG + .NonSpaceingBreak,
+  span[id*=section_4] + .einspaltig +.einspaltigG + .ContentBreak,
+  span[id*=section_4] + .einspaltig +.einspaltigG + .ContentBreak + .NonSpaceingBreak,
   .hs-richtext	{
   display: none !important;
   }
@@ -69,11 +69,11 @@
    width: 100% !important;
  }
 
- span[id*=section_4]+.einspaltigG .text h2 {
+ span[id*=section_3]+.einspaltigG .text h2 {
    font-size: 80px;
  }
 
- span[id*=section_4]+.einspaltigG .text p {
+ span[id*=section_3]+.einspaltigG .text p {
    top: -185px;
    font-size: 16px;
  }
@@ -83,8 +83,8 @@
    font-size: 20px;
  }
 
- span[id*=section_4]+.einspaltigG .text p,
- span[id*=section_4]+.einspaltigG .text h2, h1 {
+ span[id*=section_3]+.einspaltigG .text p,
+ span[id*=section_3]+.einspaltigG .text h2, h1 {
    position: absolute;
    z-index: 999;
    right: 30px;
@@ -92,7 +92,7 @@
    width: 540px;
  }
 
- span[id*=section_4]+.einspaltigG .text h2 {
+ span[id*=section_3]+.einspaltigG .text h2 {
    top: 50px;
  }
 </style>
