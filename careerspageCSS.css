@@ -371,14 +371,14 @@ span[id*=section_19]+.einspaltig div .text_ohne_bild h2{
   top: 147.5px;
 }
 
-.project {
+.movingCar {
   text-align: center;
   opacity: 0;
   transform: translateX(10px);
   transition: all 3s ease-out;
 }
 
-.project.fade-in {
+.movingCar.fadeIn {
   opacity: 1;
   transform: translateX(915px);
 }
@@ -390,12 +390,12 @@ span[id*=section_19]+.einspaltig div .text_ohne_bild h2{
   transition: all 1s ease-out;
 }
 
-.timeline.fade-in {
+.timeline.fadeIn {
   opacity: 1;
   transform: translateX(0px);
 }
 
-.number1 {
+.leftOfTimeline {
   background-color: #e3e3e3;
   max-width: 5px;
   min-width: 5px;
@@ -408,12 +408,12 @@ span[id*=section_19]+.einspaltig div .text_ohne_bild h2{
   transform: translateX(-50px);
 }
 
-.number1.fade-in {
+.leftOfTimeline.fadeIn {
   opacity: 1;
   transform: translateX(0px);
 }
 
-.number2, .number3, .number4, .number5, .number6, .number7 {
+.d1964, .d1985, .d1994, .d2013, .d2015, .bottom {
   background-color: #f58220;
   max-width: 5px;
   min-width: 5px;
@@ -422,7 +422,7 @@ span[id*=section_19]+.einspaltig div .text_ohne_bild h2{
   opacity: 0;
 }
 
-.number2.fade-in, .number3.fade-in, .number4.fade-in, .number5.fade-in, .number6.fade-in, .number7.fade-in {
+.d1964.fadeIn, .d1985.fadeIn, .d1994.fadeIn, .d2013.fadeIn, .d2015.fadeIn, .bottom.fadeIn {
   opacity: 1;
   transform: translateX(0px);
   -ms-transform: rotate(0deg);
@@ -432,7 +432,7 @@ span[id*=section_19]+.einspaltig div .text_ohne_bild h2{
   transform: rotate(0deg) translateY(0px);
 }
 
-.number2, .number5 {
+.d1964, .d2013 {
   -ms-transform: rotate(-40deg);
   /* IE 9 */
   -webkit-transform: rotate(-40deg);
@@ -440,7 +440,7 @@ span[id*=section_19]+.einspaltig div .text_ohne_bild h2{
   transform: rotate(-40deg) translateY(-50px);
 }
 
-.number4, .number6 {
+.d1994, .d2015 {
   -ms-transform: rotate(40deg);
   /* IE 9 */
   -webkit-transform: rotate(40deg);
@@ -448,13 +448,13 @@ span[id*=section_19]+.einspaltig div .text_ohne_bild h2{
   transform: rotate(40deg) translateY(-50px);
 }
 
-.number2 {
+.d1964 {
   margin-top: 65px;
   margin-left: 30px;
   transition: all 1s ease-out;
 }
 
-.number3 {
+.d1985 {
   margin-top: 0px;
   margin-left: 300px;
   transition: all 1s ease-out;
@@ -465,28 +465,28 @@ span[id*=section_19]+.einspaltig div .text_ohne_bild h2{
   transform: rotate(40deg) translateY(50px);
 }
 
-.number4 {
+.d1994 {
   background-color: #f58220;
   margin-top: -80px;
   margin-left: 360px;
   transition: all 1.5s ease-out;
 }
 
-.number5 {
+.d2013 {
   margin-top: 0px;
   margin-left: 620px;
   transition: all 1.5s ease-out;
   ;
 }
 
-.number6 {
+.d2015 {
   margin-top: -80px;
   margin-left: 660px;
   transition: all 2s ease-out;
   ;
 }
 
-.number7 {
+.bottom {
   margin-top: -20px;
   margin-left: 1030px;
   transition: all 2s ease-out;
@@ -516,18 +516,18 @@ span[id*=section_19]+.einspaltig div .text_ohne_bild h2{
   line-height: 1.3em;
 }
 
-#n2, #n4 {
+#d1964-text, #d1994-text {
   top: -25px;
   margin-left: 12px;
   min-width: 280px;
 }
 
-#n3, #n5 {
+#nd1985-text, #d2013-text {
   top: 5px;
   margin-left: 12px;
 }
 
-#n6 {
+#d2015-text {
   top: -25px;
   margin-left: 12px;
   min-width: 240px;

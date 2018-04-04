@@ -12,7 +12,18 @@ $(document).ready(function() {
   var ourScene = new ScrollMagic.Scene({
       triggerElement: '.greycircle'
     })
-    .setClassToggle('#project01', 'fade-in') // add class to project 01
+    .setClassToggle('.timelineItems', 'fadeIn') // add class to timeline
+    .reverse(false)
+    .addTo(controller);
+});
+
+$(document).ready(function() {
+  var controller = new ScrollMagic.Controller();
+  var ourScene = new ScrollMagic.Scene({
+      triggerElement: '.main'
+    })
+    .setClassToggle('#scrollingarticles', 'flyin') // add class to scrolling articles
+    .reverse(false)
     .addTo(controller);
 });
 
@@ -20,19 +31,19 @@ $(document).ready(function() {
 $(document).ready(
 function(){
   $("#video1").click(function(){
-    $('a[name*="Section_6"]+.einspaltig div .text_ohne_bild p iframe').prop('src', 'https://www.youtube.com/embed/a7fz0R3qSvk');
+    $('span[id*="section_6"]+.einspaltig div .text_ohne_bild p iframe').prop('src', 'https://www.youtube.com/embed/a7fz0R3qSvk');
     document.getElementById("video1").style.border = "3px solid #f58220"
     document.getElementById("video2").style.border = "none"
     document.getElementById("video3").style.border = "none"
   })
   $("#video2").click(function(){
-    $('a[name*="Section_6"]+.einspaltig div .text_ohne_bild p iframe').prop('src', 'https://www.youtube.com/embed/9aeYsG5DCUo');
+    $('span[id*="section_6"]+.einspaltig div .text_ohne_bild p iframe').prop('src', 'https://www.youtube.com/embed/9aeYsG5DCUo');
     document.getElementById("video1").style.border = "none"
     document.getElementById("video2").style.border = "3px solid #f58220"
     document.getElementById("video3").style.border = "none"
   })
   $("#video3").click(function(){
-    $('a[name*="Section_6"]+.einspaltig div .text_ohne_bild p iframe').prop('src', 'https://www.youtube.com/embed/90PHsrUZe7g');
+    $('span[id*="section_6"]+.einspaltig div .text_ohne_bild p iframe').prop('src', 'https://www.youtube.com/embed/90PHsrUZe7g');
     document.getElementById("video1").style.border = "none"
     document.getElementById("video2").style.border = "none"
     document.getElementById("video3").style.border = "3px solid #f58220"
@@ -42,29 +53,29 @@ function(){
   // Shows and hides Company Culture, Trainings, and Company History sections when label is clicked) //
 $(document).ready(
   function() {
-    $('a[name*=Section_11]+.einspaltig+.dreispaltigG').click(function() {
-      $("a[name*=Section_13]+.einspaltig+.zweispaltigG").attr("style", "display: block !important");
-      $("a[name*=Section_14]+.einspaltig+.zweispaltigG").attr("style", "display: none !important");
-      $("a[name*=Section_15]+.einspaltig+.zweispaltigG").attr("style", "display: none !important");
-      $("a[name*=Section_13]+.einspaltig +.zweispaltigG +.zweispaltig").attr("style", "display: block !important");
-      $("a[name*=Section_14]+.einspaltig +.zweispaltigG +.zweispaltig").attr("style", "display: none !important");
-      $("a[name*=Section_15]+.einspaltig +.zweispaltigG +.zweispaltig").attr("style", "display: none !important");
+    $('span[id*=section_11]+.einspaltig+.dreispaltigG').click(function() {
+      $("span[id*=section_13]+.einspaltig+.zweispaltigG").attr("style", "display: block !important");
+      $("span[id*=section_14]+.einspaltig+.zweispaltigG").attr("style", "display: none !important");
+      $("span[id*=section_15]+.einspaltig+.zweispaltigG").attr("style", "display: none !important");
+      $("span[id*=section_13]+.einspaltig +.zweispaltigG +.zweispaltig").attr("style", "display: block !important");
+      $("span[id*=section_14]+.einspaltig +.zweispaltigG +.zweispaltig").attr("style", "display: none !important");
+      $("span[id*=section_15]+.einspaltig +.zweispaltigG +.zweispaltig").attr("style", "display: none !important");
     });
-    $('a[name*=Section_11]+.einspaltig+.dreispaltigG+.dreispaltigG').click(function() {
-      $("a[name*=Section_13]+.einspaltig+.zweispaltigG").attr("style", "display: none !important");
-      $("a[name*=Section_14]+.einspaltig+.zweispaltigG").attr("style", "display: block !important");
-      $("a[name*=Section_15]+.einspaltig+.zweispaltigG").attr("style", "display: none !important");
-      $("a[name*=Section_13]+.einspaltig +.zweispaltigG +.zweispaltig").attr("style", "display: none !important");
-      $("a[name*=Section_14]+.einspaltig +.zweispaltigG +.zweispaltig").attr("style", "display: block !important");
-      $("a[name*=Section_15]+.einspaltig +.zweispaltigG +.zweispaltig").attr("style", "display: none !important");
+    $('span[id*=section_11]+.einspaltig+.dreispaltigG+.dreispaltigG').click(function() {
+      $("span[id*=section_13]+.einspaltig+.zweispaltigG").attr("style", "display: none !important");
+      $("span[id*=section_14]+.einspaltig+.zweispaltigG").attr("style", "display: block !important");
+      $("span[id*=section_15]+.einspaltig+.zweispaltigG").attr("style", "display: none !important");
+      $("span[id*=section_13]+.einspaltig +.zweispaltigG +.zweispaltig").attr("style", "display: none !important");
+      $("span[id*=section_14]+.einspaltig +.zweispaltigG +.zweispaltig").attr("style", "display: block !important");
+      $("span[id*=section_15]+.einspaltig +.zweispaltigG +.zweispaltig").attr("style", "display: none !important");
     });
-      $('a[name*=Section_11]+.einspaltig+.dreispaltigG+.dreispaltigG+.dreispaltigG').click(function() {
-      $("a[name*=Section_13]+.einspaltig+.zweispaltigG").attr("style", "display: none !important");
-      $("a[name*=Section_14]+.einspaltig+.zweispaltigG").attr("style", "display: none !important");
-      $("a[name*=Section_15]+.einspaltig+.zweispaltigG").attr("style", "display: block !important");
-      $("a[name*=Section_13]+.einspaltig +.zweispaltigG +.zweispaltig").attr("style", "display: none !important");
-      $("a[name*=Section_14]+.einspaltig +.zweispaltigG +.zweispaltig").attr("style", "display: none !important");
-      $("a[name*=Section_15]+.einspaltig +.zweispaltigG +.zweispaltig").attr("style", "display: block !important");
+      $('span[id*=section_11]+.einspaltig+.dreispaltigG+.dreispaltigG+.dreispaltigG').click(function() {
+      $("span[id*=section_13]+.einspaltig+.zweispaltigG").attr("style", "display: none !important");
+      $("span[id*=section_14]+.einspaltig+.zweispaltigG").attr("style", "display: none !important");
+      $("span[id*=section_15]+.einspaltig+.zweispaltigG").attr("style", "display: block !important");
+      $("span[id*=section_13]+.einspaltig +.zweispaltigG +.zweispaltig").attr("style", "display: none !important");
+      $("span[id*=section_14]+.einspaltig +.zweispaltigG +.zweispaltig").attr("style", "display: none !important");
+      $("span[id*=section_15]+.einspaltig +.zweispaltigG +.zweispaltig").attr("style", "display: block !important");
     });
   });
 
@@ -105,17 +116,17 @@ $(document).ready(
 
   // Determining what to show depending on if clip paths are supported //
 if ( areClipPathShapesSupported() ) {
-  $('a[name*=Section_11]+.einspaltig+.dreispaltigG').click(function() {
+  $('span[id*=section_11]+.einspaltig+.dreispaltigG').click(function() {
     $('.triangle1').attr('style','display:block');
     $('.triangle2').attr('style','display:none');
     $('.triangle3').attr('style','display:none');
   });
-  $('a[name*=Section_11]+.einspaltig+.dreispaltigG+.dreispaltigG').click(function() {
+  $('span[id*=section_11]+.einspaltig+.dreispaltigG+.dreispaltigG').click(function() {
     $('.triangle1').attr('style','display:none');
     $('.triangle2').attr('style','display:block');
     $('.triangle3').attr('style','display:none');
   });
-  $('a[name*=Section_11]+.einspaltig+.dreispaltigG+.dreispaltigG+.dreispaltigG').click(function() {
+  $('span[id*=section_11]+.einspaltig+.dreispaltigG+.dreispaltigG+.dreispaltigG').click(function() {
     $('.triangle1').attr('style','display:none');
     $('.triangle2').attr('style','display:none');
     $('.triangle3').attr('style','display:block');
